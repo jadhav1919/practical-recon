@@ -68,8 +68,6 @@ In simple words:
 > Google finds websites.
 > Shodan finds internet-connected devices and services.
 
-![Shodan How It Works](images/shodan/shodan-how-it-works.png)
-
 ---
 
 ## 4. What Shodan Can Find
@@ -113,8 +111,6 @@ For a discovered host, Shodan may show:
 
 This helps identify what is publicly exposed.
 
-![Shodan Information](images/shodan/shodan-info.png)
-
 ---
 
 ## 6. How to Access Shodan
@@ -132,8 +128,6 @@ text
 4. Search by keyword, service, or technology
 5. Review results
 
-![Shodan Access](images/shodan/shodan-access.png)
-
 ---
 
 ## 7. Understanding the Shodan Interface
@@ -147,8 +141,6 @@ The Shodan search page includes:
 - **Map view** → geographic results
 
 This helps quickly analyze exposed assets.
-
-![Shodan Interface](images/shodan/shodan-interface.png)
 
 ---
 
