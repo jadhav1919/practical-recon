@@ -152,8 +152,6 @@ Copy the selected Google Dork.
 Example:
 intitle:login
 
-text
-
 ### Step 6: Use It in Google Search
 
 Paste the dork into Google search.
@@ -172,8 +170,6 @@ Check for:
 - open directories
 - public resources
 
-![GHDB Step by Step](images/ghdb/ghdb-steps.png)
-
 ---
 
 ## 7. Practical Example
@@ -185,18 +181,12 @@ Find public login pages.
 Search keyword:
 login
 
-text
-
 GHDB may show a related dork such as:
 intitle:login
-
-text
 
 ### Use in Google
 Paste into Google:
 intitle:login
-
-text
 
 ### Result
 Google returns pages with "login" in the title.
@@ -217,17 +207,11 @@ Find public PDF files.
 Search keyword:
 pdf
 
-text
-
 GHDB may show a dork using:
 filetype:pdf
 
-text
-
 ### Use in Google
 filetype:pdf cybersecurity
-
-text
 
 ### Result
 Returns public PDF documents related to cybersecurity.
@@ -253,8 +237,6 @@ A simple GHDB workflow:
 
 This is the normal GHDB usage flow.
 
-![GHDB Workflow](images/ghdb/ghdb-workflow.png)
-
 ---
 
 ## 10. Security Use Cases
@@ -272,41 +254,3 @@ Security professionals use GHDB for:
 
 ---
 
-## 11. Risks / Misuse
-
-GHDB can also be misused to find:
-
-- exposed files
-- weak portals
-- sensitive directories
-- public misconfigurations
-
-This is why defenders use GHDB to identify and fix exposure before attackers do.
-
----
-
-## 12. Ethical Note
-
-Use GHDB only for:
-
-- education
-- authorized testing
-- defensive security
-- exposure assessment
-
-Do not use GHDB for:
-
-- unauthorized access
-- exploitation
-- privacy violation
-- illegal activity
-
----
-
-## 13. Key Takeaways
-
-- GHDB is a collection of ready-made Google Dorks
-- It helps find public exposure faster
-- It saves time during reconnaissance
-- It is useful for OSINT and security auditing
-- It should be used only for ethical security work
