@@ -334,6 +334,7 @@ Shows detected technologies such as:
 - PHP
 - nginx
 
+![Shodan Host Details](images/shodan/shodan-host-details.png)
 ---
 
 ## 14. Security Use Cases
