@@ -144,7 +144,7 @@ This helps quickly analyze exposed assets.
 
 ---
 
-## 8. How to Use Shodan (Step-by-Step)
+## 8. How to Use Shodan 
 
 ### Step 1: Open Shodan
 
@@ -207,8 +207,6 @@ Check:
 - what technologies are visible
 - whether the service should be public
 
-![Shodan Step by Step](images/shodan/shodan-steps.png)
-
 ---
 
 ## 9. Basic Shodan Search Examples
@@ -216,48 +214,34 @@ Check:
 ### 9.1 Search VPN Devices
 vpn
 
-text
-
 **Use:** Finds publicly visible VPN-related services.
 
 ### 9.2 Search VoIP Services
 VoIP
-
-text
 
 **Use:** Finds internet-facing VoIP systems.
 
 ### 9.3 Search SCADA Systems
 SCADA
 
-text
-
 **Use:** Finds industrial control related systems.
 
 ### 9.4 Search Web Servers
 apache
-
-text
 
 **Use:** Finds systems exposing Apache server banners.
 
 ### 9.5 Search Open Webcam Devices
 webcam
 
-text
-
 **Use:** Finds publicly visible webcam-related systems.
-
-![Shodan Examples](images/shodan/shodan-examples.png)
 
 ---
 
-## 10. Practical Example 1: Finding VPN Services
+## 10. Example 1: Finding VPN Services
 
 ### Query
 vpn
-
-text
 
 ### What it does
 Searches for internet-facing VPN-related services.
@@ -275,12 +259,10 @@ Useful for checking exposed remote access infrastructure.
 
 ---
 
-## 11. Practical Example 2: Finding VoIP Services
+## 11. Example 2: Finding VoIP Services
 
 ### Query
 VoIP
-
-text
 
 ### What it does
 Searches for public VoIP-related systems.
@@ -297,12 +279,10 @@ Useful for telecom exposure analysis.
 
 ---
 
-## 12. Practical Example 3: Finding SCADA / ICS Systems
+## 12. Example 3: Finding SCADA / ICS Systems
 
 ### Query
 SCADA
-
-text
 
 ### What it does
 Searches for publicly visible industrial systems.
@@ -354,8 +334,6 @@ Shows detected technologies such as:
 - PHP
 - nginx
 
-![Shodan Host Details](images/shodan/shodan-host-details.png)
-
 ---
 
 ## 14. Security Use Cases
@@ -373,45 +351,3 @@ Shodan is commonly used for:
 - security auditing
 
 ---
-
-## 15. Risks / Misuse
-
-Attackers may misuse Shodan to identify:
-
-- exposed services
-- weak devices
-- open admin panels
-- vulnerable systems
-- public infrastructure
-
-This is why defenders use Shodan first—to find and secure exposure before attackers do.
-
----
-
-## 16. Ethical Note
-
-Use Shodan only for:
-
-- education
-- authorized testing
-- defensive security
-- exposure assessment
-- security auditing
-
-Do not use it for:
-
-- unauthorized access
-- exploitation
-- illegal scanning
-- privacy violation
-
----
-
-## 17. Key Takeaways
-
-- Shodan is a search engine for internet-connected devices
-- It finds exposed public systems and services
-- It is useful for asset discovery and exposure review
-- It helps identify open ports, services, and technologies
-- It is widely used in security assessments and attack surface analysis
-- It should only be used ethically and on authorized targets
