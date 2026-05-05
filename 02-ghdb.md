@@ -62,7 +62,6 @@ These queries use advanced Google operators such as:
 
 Instead of building these queries manually, you can search GHDB and reuse relevant ones.
 
-![GHDB How It Works](images/ghdb/ghdb-how-it-works.png)
 
 ---
 
@@ -83,7 +82,6 @@ https://www.exploit-db.com/google-hacking-database
 4. Use search bar or filters
 5. Review available Google Dorks
 
-![GHDB Access](images/ghdb/ghdb-access.png)
 
 ---
 
@@ -103,7 +101,7 @@ This helps quickly find relevant dorks.
 
 ---
 
-## 6. How to Use GHDB (Step-by-Step)
+## 6. How to Use GHDB 
 
 ### Step 1: Open GHDB
 
