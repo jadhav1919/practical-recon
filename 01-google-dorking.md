@@ -325,7 +325,6 @@ Google Dorking can help identify publicly visible:
 | Hidden indexed pages | forgotten pages |
 | Misconfigured resources | open S3 buckets, exposed APIs |
 
-![Google Dorking Results](images/google-dorking/dorking-results.png)
 
 ---
 
