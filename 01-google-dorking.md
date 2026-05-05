@@ -75,7 +75,7 @@ Google advanced search uses this format: operator:search_term
 **Rule:**  
 Do not put spaces between the operator and the search term.
 
-| ✅ Correct | ❌ Wrong |
+|  Correct |  Wrong |
 |-----------|----------|
 | `site:example.com` | `site: example.com` |
 | `inurl:login` | `inurl: login` |
@@ -206,8 +206,7 @@ Shows Google's cached copy of a page.
 | **Example** | `cache:example.com` |
 | **Use** | Displays stored Google copy of page |
 | **Security Use** | Useful for viewing removed or changed content |
-
-![Cache Operator Example](images/google-dorking/cache-operator.png)
+**⚠️ Note:** The `cache:` operator has been deprecated by Google. It no longer returns results as of 2024-2025.
 
 ---
 
