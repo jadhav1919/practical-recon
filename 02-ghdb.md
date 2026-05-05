@@ -254,3 +254,17 @@ Security professionals use GHDB for:
 
 ---
 
+## GHDB for VPN Discovery
+
+GHDB contains Google Dorks that can help locate publicly indexed VPN-related pages.
+
+These dorks search for:
+
+- VPN login pages
+- SSL VPN portals
+- remote access gateways
+- VPN configuration files
+- exposed key files
+- vendor-specific VPN interfaces
+
+Instead of manually searching for these pages, GHDB provides ready-made search queries.
