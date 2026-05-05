@@ -21,7 +21,6 @@ This makes Shodan useful for finding publicly exposed devices and services conne
 Official website:
 https://www.shodan.io
 
-text
 
 ![Shodan Overview](images/shodan/shodan-overview.png)
 
