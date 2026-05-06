@@ -62,8 +62,6 @@ Instead of searching all images, you tell Google:
 
 This makes image searching more accurate.
 
-![Advanced Image Search How It Works](images/advanced-image-search/advanced-image-how-it-works.png)
-
 ---
 
 ## 4. How to Access Advanced Image Search
@@ -81,18 +79,13 @@ text
 4. Apply filters
 5. Click Advanced Search
 
-![Advanced Image Search Access](images/advanced-image-search/advanced-image-access.png)
-
 ---
 
-## 5. How to Use Advanced Image Search (Step-by-Step)
+## 5. How to Use Advanced Image Search
 
 ### Step 1: Open Advanced Image Search
 
-Open:
-https://www.google.com/advanced_image_search
-
-text
+Open: https://www.google.com/advanced_image_search
 
 You will see the Advanced Image Search page.
 
@@ -137,8 +130,6 @@ Look for:
 - infrastructure visuals
 - screenshots
 - public facilities
-
-![Advanced Image Search Steps](images/advanced-image-search/advanced-image-steps.png)
 
 ---
 
@@ -220,135 +211,59 @@ Examples:
 - GIF
 - SVG
 
-![Advanced Image Search Filters](images/advanced-image-search/advanced-image-filters.png)
-
 ---
+## Example: Finding Company Office Images
 
-## 7. Practical Cybersecurity Use Cases
+### Goal
+Find public images of Microsoft office buildings around the world.
 
-Advanced Image Search is useful in cybersecurity for finding:
+### Step 1: Open Advanced Image Search
 
-### 7.1 Office / Building Images
+Go to: https://www.google.com/advanced_image_search
 
-Used to identify:
-- office entrances
-- security gates
-- parking areas
-- building layout
+### Step 2: Enter Search Query
 
-### 7.2 Employee Photos
+In "all these words" field, type:
+microsoft office building
 
-Used to find:
-- public employee images
-- profile photos
-- event photos
-- team pages
+### Step 3: Apply Filters
 
-### 7.3 Logos and Branding
+| Filter | Selection |
+|--------|-----------|
+| Image size | Large |
+| Type of image | Photo |
+| Color | Full color |
+| Region | Any (or select specific country) |
 
-Used to identify:
-- company branding
-- partner branding
-- third-party vendors
+### Step 4: Click Advanced Search
 
-### 7.4 Infrastructure Images
+Click the **Advanced Search** button.
 
-Used to find:
-- server rooms
-- data centers
-- office networking images
-- hardware visuals
+### Step 5: Analyze Results
 
-### 7.5 Event Photos
+Google returns filtered images showing:
+- Microsoft office buildings from different countries
+- Building entrances and exteriors
+- Company logos on buildings
+- Surrounding areas and streets
+- Security features (if visible)
 
-Used to find:
-- conferences
-- employee meetups
-- office events
-- public presentations
+### Example Results You May See
 
-![Cybersecurity Use Cases](images/advanced-image-search/advanced-image-usecases.png)
+| Location | What Images Show |
+|----------|------------------|
+| Redmond, USA | Microsoft Headquarters campus |
+| Hyderabad, India | Microsoft India Development Center |
+| London, UK | Microsoft London office |
+| Sydney, Australia | Microsoft Sydney office |
 
----
+### Security Implications
 
-## 8. Safe Search Examples
+These publicly available images can reveal:
+- Exact office locations
+- Building access points
+- Security measures
+- Employee entry/exit patterns
+- Adjacent vulnerable areas
 
-### Example 1: Find company office images
-amazon office
-
-text
-
-### Example 2: Find employee event photos
-microsoft conference employees
-
-text
-
-### Example 3: Find images only from target domain
-tesla site:tesla.com
-
-text
-
-### Example 4: Find company logo files
-apple logo filetype:png
-
-text
-
-![Search Examples](images/advanced-image-search/advanced-image-examples.png)
-
----
-
-## 9. Security Use Case
-
-Security professionals use Advanced Image Search for:
-
-- visual OSINT
-- employee research
-- physical recon
-- branding analysis
-- event intelligence
-- location verification
-- infrastructure discovery
-
----
-
-## 10. Risks / Misuse
-
-Attackers may misuse image search to collect:
-
-- employee photos
-- office layouts
-- badges
-- logos
-- infrastructure visuals
-
-This is why defenders should know what visual data is publicly exposed.
-
----
-
-## 11. Ethical Note
-
-Use Advanced Image Search only for:
-
-- education
-- authorized research
-- defensive security
-- OSINT
-- exposure review
-
-Do not use it for:
-
-- stalking
-- privacy abuse
-- impersonation
-- harassment
-
----
-
-## 12. Key Takeaways
-
-- Advanced Image Search helps find images more precisely
-- It uses filters like size, color, type, and domain
-- It is useful for visual OSINT and reconnaissance
-- It helps gather public visual intelligence
-- It should be used ethically and responsibly
-
+![Microsoft Office Building Search Results](images/advanced-image-search/advanced-image-example.png)
