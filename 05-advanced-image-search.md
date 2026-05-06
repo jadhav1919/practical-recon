@@ -79,61 +79,9 @@ https://www.google.com/advanced_image_search
 
 ---
 
-## 5. How to Use Advanced Image Search
+## 5. Important Filters in Advanced Image Search
 
-### Step 1: Open Advanced Image Search
-
-Open: https://www.google.com/advanced_image_search
-
-You will see the Advanced Image Search page.
-
-### Step 2: Enter Search Keywords
-
-In the search fields, enter what image you want to find.
-
-Example:
-- microsoft office
-- tesla data center
-- amazon warehouse
-- apple campus
-
-### Step 3: Apply Filters
-
-Now narrow results using filters.
-
-You can filter by:
-- image size
-- aspect ratio
-- color
-- image type
-- region
-- site/domain
-- file type
-
-### Step 4: Click Advanced Search
-
-Click **Advanced Search**.
-
-Google returns filtered image results based on your settings.
-
-### Step 5: Analyze Results
-
-Review the images carefully.
-
-Look for:
-- office locations
-- employee photos
-- public events
-- company branding
-- infrastructure visuals
-- screenshots
-- public facilities
-
----
-
-## 6. Important Filters in Advanced Image Search
-
-### 6.1 All These Words
+### 5.1 All These Words
 
 Finds images related to all entered words.
 
@@ -141,7 +89,7 @@ Finds images related to all entered words.
 
 Useful for finding office-related images.
 
-### 6.2 Exact Word or Phrase
+### 5.2 Exact Word or Phrase
 
 Finds images matching the exact phrase.
 
@@ -149,7 +97,7 @@ Finds images matching the exact phrase.
 
 Useful for precise image matching.
 
-### 6.3 Image Size
+### 5.3 Image Size
 
 Filters by image size.
 
@@ -158,7 +106,7 @@ Useful for finding:
 - banners
 - high-resolution photos
 
-### 6.4 Aspect Ratio
+### 5.4 Aspect Ratio
 
 Filters by image shape.
 
@@ -167,7 +115,7 @@ Useful for finding:
 - tall images
 - square images
 
-### 6.5 Color
+### 5.5 Color
 
 Filters by image color.
 
@@ -176,7 +124,7 @@ Useful for finding:
 - black & white images
 - transparent images
 
-### 6.6 Type of Image
+### 5.6 Type of Image
 
 Filters by image type.
 
@@ -187,19 +135,19 @@ Examples:
 - line drawing
 - animated
 
-### 6.7 Region
+### 5.7 Region
 
 Filters images by country/region.
 
 Useful for location-based research.
 
-### 6.8 Site or Domain
+### 5.8 Site or Domain
 
 Search images only from one website.
 
 **Example:** `microsoft site:microsoft.com`
 
-### 6.9 File Type
+### 5.9 File Type
 
 Filters by image format.
 
@@ -221,8 +169,7 @@ Go to: https://www.google.com/advanced_image_search
 
 ### Step 2: Enter Search Query
 
-In "all these words" field, type:
-microsoft office building
+In "all these words" field, type: microsoft office building
 
 ### Step 3: Apply Filters
 
