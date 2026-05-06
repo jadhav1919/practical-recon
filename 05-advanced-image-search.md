@@ -69,8 +69,6 @@ This makes image searching more accurate.
 ### Official URL 
 https://www.google.com/advanced_image_search
 
-text
-
 ### Steps
 
 1. Open browser
