@@ -111,7 +111,6 @@ Sometimes Netcraft provides historical information such as:
 - older server technologies
 - infrastructure changes
 
-![Netcraft Features](images/netcraft/netcraft-features.png)
 
 ---
 
@@ -216,23 +215,74 @@ microsoft.com
 4. Review report details
 
 ### Information You May Find
-- hosting provider
-- server technology
-- IP address
-- SSL details
-- operating system
-- DNS information
 
-### Security Use
-Useful for:
-- reconnaissance
-- infrastructure mapping
-- technology fingerprinting
-- exposure analysis
-
-![Netcraft Example](images/netcraft/netcraft-example.png)
+![Netcraft Site Report](images/netcraft/netcraft-sitereport.png)
 
 ---
+
+####  Background & Basic Information
+
+This section shows:
+- Site title
+- Date first seen
+- Site rank
+- Primary language
+- Site description
+
+![Netcraft Background Information](images/netcraft/netcraft-background.png)
+
+---
+
+#### Network & Hosting Details
+
+This section reveals:
+- Netblock Owner
+- Hosting company
+- Hosting country
+- IPv4 and IPv6 addresses
+- Nameserver information
+- Domain registrar
+
+![Netcraft Network Details](images/netcraft/netcraft-network.png)
+
+---
+
+#### SSL/TLS & Security Information
+
+This section shows:
+- SSL certificate issuer
+- Certificate validity period
+- Encryption details
+- Security protocols
+
+![Netcraft SSL Information](images/netcraft/netcraft-ssl.png)
+
+---
+
+#### Site Technology Detected
+
+This section identifies:
+- Web server software (e.g., nginx, Apache, IIS)
+- Programming languages (e.g., PHP, ASP.NET)
+- Cloud services (e.g., Cloudflare, AWS, Azure)
+- Other technologies in use
+
+![Netcraft Technology Detection](images/netcraft/netcraft-technology.png)
+
+---
+
+### Information Summary
+
+| Information | Value |
+| ----------- | ----- |
+| Domain | microsoft.com |
+| Hosting Provider | Microsoft Corporation |
+| Hosting Country | United States |
+| IPv4 Address | 150.171.109.244 |
+| Nameserver | ns1-39.azure-dns.com |
+| Domain Registrar | markmonitor.com |
+| First Seen | August 1995 |
+
 
 ## 9. Advantages of Netcraft
 
