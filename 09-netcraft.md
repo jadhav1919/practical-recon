@@ -273,15 +273,35 @@ This section identifies:
 
 ### Information Summary
 
-| Information | Value |
-| ----------- | ----- |
-| Domain | microsoft.com |
-| Hosting Provider | Microsoft Corporation |
-| Hosting Country | United States |
-| IPv4 Address | 150.171.109.244 |
-| Nameserver | ns1-39.azure-dns.com |
-| Domain Registrar | markmonitor.com |
-| First Seen | August 1995 |
+| Category | Information Found |
+|----------|-------------------|
+| **Domain** | microsoft.com |
+| **First Seen** | August 1995 |
+| **Site Rank** | 21,799 |
+| **Hosting Provider** | Microsoft Corporation |
+| **Hosting Country** | United States (US) |
+| **IPv4 Address** | 150.171.109.241 |
+| **IPv6 Address** | 2603:1061:14:f0:0:0:0:1 |
+| **Nameserver** | ns1-39.azure-dns.com |
+| **Domain Registrar** | markmonitor.com |
+| **SSL Protocol** | TLS v1.3 |
+| **SSL Issuer** | Microsoft TLS G2 RSA CA OCSP 02 |
+| **SSL Validity** | Apr 15 2026 - Oct 12 2026 |
+| **Perfect Forward Secrecy** | Yes |
+| **Server-Side Tech** | SSL, ASP.NET |
+| **Client-Side Tech** | JavaScript, Angular JS |
+| **Compression** | Gzip Content Encoding |
+| **Character Encoding** | UTF8 |
+| **DNS Security** | Enabled |
+
+### Key Observations
+
+1. **Microsoft hosts its own infrastructure** (Hosting company: Microsoft Corporation)
+2. **Domain has been online since 1995** (Very long internet presence)
+3. **TLS v1.3 with Perfect Forward Secrecy** (Strong security configuration)
+4. **153+ Subject Alternative Names** (Large number of associated domains)
+5. **ASP.NET and Angular JS** (Microsoft technologies in use)
+6. **Markmonitor as registrar** (Enterprise-grade domain management)
 
 
 ## 9. Advantages of Netcraft
