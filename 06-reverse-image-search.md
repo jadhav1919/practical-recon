@@ -86,8 +86,6 @@ In simple words:
 3. Upload or paste image URL
 4. Start search
 
-![Reverse Image Search Access](images/reverse-image-search/reverse-image-access.png)
-
 ---
 
 ## 5.Example: Reverse Image Search Demonstration
