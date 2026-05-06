@@ -50,13 +50,12 @@ This is useful in:
 
 Google Advanced Search works like a visual version of Google operators.
 
-Instead of typing: site:microsoft.com filetype:pdf
-
-text
+Instead of typing: cybersecurity site:microsoft.com filetype:pdf
 
 you fill fields like:
 
 - site/domain = microsoft.com
+- all these words = cybersecurity
 - file type = PDF
 
 Google automatically builds the search query in the background.
@@ -65,7 +64,7 @@ So this is basically:
 
 > Advanced Search = Google operators without remembering operator syntax
 
-![Google Advanced Search How It Works](images/google-advanced/advanced-search-how-it-works.png)
+![Google Advanced Search How It Works](images/google-advanced/advanced-search-filled.png)
 
 ---
 
