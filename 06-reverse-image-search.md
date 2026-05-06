@@ -73,10 +73,124 @@ In simple words:
 
 > Instead of searching with text, you search using an image.
 
-![Reverse Image Search How It Works](images/reverse-image-search/reverse-image-how-it-works.png)
-
 ---
 
 ## 4. How to Access Reverse Image Search
 
-### Official URL
+### Official URL https://www.google.com/imghp
+
+### Steps to Access
+
+1. Open Google Images
+2. Click the Google Lens / camera icon
+3. Upload or paste image URL
+4. Start search
+
+![Reverse Image Search Access](images/reverse-image-search/reverse-image-access.png)
+
+---
+
+## 5.Example: Reverse Image Search Demonstration
+
+### Image Used
+
+Public celebrity image for demonstration purposes only.
+
+### Purpose
+
+To demonstrate how Reverse Image Search identifies visually similar and matching images online.
+
+### Steps Performed
+
+1. Opened Google Images
+2. Clicked the Google Lens (camera) icon
+3. Uploaded a public celebrity photo
+4. Google searched for matching images
+5. Analyzed the results returned by Google
+
+### Results Returned
+
+Google returned:
+
+- related images
+- matching websites
+- news pages
+- social media references
+- image source pages
+
+### Learning Outcome
+
+Reverse Image Search can help verify:
+- image authenticity
+- image reuse
+- original source
+- online usage of an image
+
+![Reverse Image Search Example Results](images/reverse-image-search/reverse-image-example.png)
+
+---
+
+## 6. What Reverse Image Search Can Identify
+
+Reverse Image Search can help identify:
+
+- fake profile pictures
+- reused images
+- image origin
+- edited versions
+- social media reuse
+- public appearances
+- meme sources
+- website usage
+- copied content
+
+---
+
+## 7. How to Analyze Results
+
+When results appear, check:
+
+### Exact Matches
+Shows websites using the same image. Useful for identifying reuse.
+
+### Similar Images
+Shows visually related images. Useful for identifying variations or edits.
+
+### Website Sources
+Shows where the image is published online. Useful for source tracking.
+
+### Search Suggestions
+Shows related keywords detected from the image. Useful for additional OSINT.
+
+---
+
+## 10. Other Reverse Image Search Tools
+
+Besides Google, common reverse image search tools include:
+
+| Tool | URL |
+|------|-----|
+| Google Images | images.google.com |
+| TinEye | tineye.com |
+| Bing Visual Search | bing.com/visualsearch |
+| Yandex Images | yandex.com/images |
+| Pinterest Visual Search | pinterest.com |
+
+Each tool may return different results.
+
+---
+
+## 11. Security Use Cases
+
+Security professionals use Reverse Image Search for:
+
+- OSINT
+- fake account detection
+- identity verification
+- scam analysis
+- social engineering investigations
+- brand monitoring
+- visual intelligence gathering
+
+---
+
