@@ -232,6 +232,13 @@ text
 
 ![DNSDumpster Practical Example](images/dnsdumpster/dnsdumpster-practical-example.png)
 
+#### DNSDumpster - Domain Profiler Summary
+
+After the DNS enumeration, DNSDumpster provides a **Domain Profiler Summary** showing additional infrastructure insights.
+
+![DNSDumpster Domain Profiler](images/dnsdumpster/dnsdumpster-domain-profiler.png)
+
+
 ### Security Value
 
 This demonstrates how DNS enumeration helps identify:
