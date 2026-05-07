@@ -90,8 +90,6 @@ Shows authoritative nameservers for the domain.
 
 Stores text-based information. Commonly used for SPF, domain verification, and email security policies.
 
-![DNS Records](images/dnsdumpster/dnsdumpster-dns-records.png)
-
 ---
 
 ## 5. What DNSDumpster Can Find
@@ -121,11 +119,10 @@ When a domain is entered:
 
 It only collects publicly available information.
 
-![DNSDumpster How It Works](images/dnsdumpster/dnsdumpster-how-it-works.png)
 
 ---
 
-## 7. How to Use DNSDumpster (Step-by-Step)
+## 7. How to Use DNSDumpster 
 
 ### Step 1: Open DNSDumpster
 
@@ -149,7 +146,7 @@ Click the search button. DNSDumpster starts collecting DNS information.
 
 ![DNSDumpster Search Results](images/dnsdumpster/dnsdumpster-results.png)
 
-### Step 5: Review Subdomains
+### Step 4: Review Subdomains
 
 DNSDumpster shows discovered public subdomains.
 
@@ -160,7 +157,7 @@ DNSDumpster shows discovered public subdomains.
 
 ![DNSDumpster Subdomains](images/dnsdumpster/dnsdumpster-subdomains.png)
 
-### Step 6: Analyze DNS Records
+### Step5 : Analyze DNS Records
 
 DNSDumpster displays:
 - A records (Public IP addresses)
@@ -168,7 +165,12 @@ DNSDumpster displays:
 - NS records (Nameservers)
 - TXT records (SPF and verification)
 
-![DNSDumpster DNS Records](images/dnsdumpster/dnsdumpster-dns-records.png)
+#### DNSDumpster - Domain Profiler Summary
+
+After the DNS enumeration, DNSDumpster provides a **Domain Profiler Summary** showing additional infrastructure insights.
+
+![DNSDumpster Domain Profiler](images/dnsdumpster/dnsdumpster-domain-profiler.png)
+
 
 ### Step 7: Review Network Map
 
@@ -232,11 +234,6 @@ text
 
 ![DNSDumpster Practical Example](images/dnsdumpster/dnsdumpster-practical-example.png)
 
-#### DNSDumpster - Domain Profiler Summary
-
-After the DNS enumeration, DNSDumpster provides a **Domain Profiler Summary** showing additional infrastructure insights.
-
-![DNSDumpster Domain Profiler](images/dnsdumpster/dnsdumpster-domain-profiler.png)
 
 
 ### Security Value
