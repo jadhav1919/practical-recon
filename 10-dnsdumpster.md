@@ -6,8 +6,6 @@
 Official Website:
 https://dnsdumpster.com
 
-text
-
 DNSDumpster helps identify:
 
 - subdomains
@@ -24,8 +22,6 @@ It is commonly used in:
 - OSINT
 - Attack Surface Mapping
 - Infrastructure Analysis
-
-![DNSDumpster Overview](images/dnsdumpster/dnsdumpster-overview.png)
 
 ---
 
