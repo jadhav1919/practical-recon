@@ -132,8 +132,6 @@ It only collects publicly available information.
 Open:
 https://dnsdumpster.com
 
-text
-
 ![DNSDumpster Homepage](images/dnsdumpster/dnsdumpster-homepage.png)
 
 ### Step 2: Enter Target Domain
@@ -144,11 +142,8 @@ Enter the target domain.
 
 ![DNSDumpster Enter Domain](images/dnsdumpster/dnsdumpster-enter-domain.png)
 
-### Step 3: Complete CAPTCHA
 
-DNSDumpster may ask for CAPTCHA verification. Complete it to continue.
-
-### Step 4: Start Search
+### Step 3: Start Search
 
 Click the search button. DNSDumpster starts collecting DNS information.
 
