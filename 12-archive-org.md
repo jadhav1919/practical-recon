@@ -5,18 +5,6 @@
 The Internet Archive Wayback Machine allows users to view archived versions of websites from different time periods. During reconnaissance, archived data can help identify old pages, removed content, historical URLs, and exposed resources that may no longer exist on the live website.
 
 The Wayback Machine stores snapshots of websites over time, making it useful for understanding how a target website changed historically.
-
-![Archive Overview](images/archive-org/archive-overview.png)
-
----
-
-## Objectives
-
-- Understand how archive.org works
-- Learn how archived websites are accessed
-- Identify information available from archived pages
-- Use Photon to collect archived URLs
-
 ---
 
 ## What is archive.org?
@@ -26,12 +14,8 @@ The Wayback Machine stores snapshots of websites over time, making it useful for
 ### Website
 https://archive.org
 
-text
-
 ### Wayback Machine
 https://web.archive.org
-
-text
 
 The Wayback Machine allows users to:
 
@@ -39,8 +23,6 @@ The Wayback Machine allows users to:
 - Access archived web pages
 - Analyze removed content
 - Discover historical URLs
-
-![Wayback Machine](images/archive-org/wayback-machine.png)
 
 ---
 
@@ -65,7 +47,6 @@ During reconnaissance, this information helps researchers understand the target 
 ### Step 1 — Open the Wayback Machine
 https://web.archive.org
 
-text
 
 ![Wayback Machine Homepage](images/archive-org/wayback-homepage.png)
 
@@ -75,8 +56,6 @@ text
 
 Example:
 https://www.microsoft.com
-
-text
 
 ![Searching Domain](images/archive-org/wayback-search.png)
 
