@@ -53,18 +53,12 @@ https://web.archive.org
 
 ---
 
-### Step 2 — Enter the Target Website
+### Step 2 — Enter the Target Website && View Archived Snapshots
 
 Example:
 https://www.microsoft.com
 
-![Searching Domain](images/archive-org/wayback-search.png)
-
----
-
-### Step 3 — View Archived Snapshots
-
-The calendar view displays:
+##### The calendar view displays:
 
 - Archived dates
 - Snapshot frequency
@@ -76,7 +70,7 @@ Users can click highlighted dates to open archived versions.
 
 ---
 
-### Step 4 — Open an Archived Web Page
+### Step 3— Open an Archived Web Page
 
 Selecting a saved date loads the archived website version from that time period.
 
