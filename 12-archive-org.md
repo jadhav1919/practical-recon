@@ -5,6 +5,7 @@
 The Internet Archive Wayback Machine allows users to view archived versions of websites from different time periods. During reconnaissance, archived data can help identify old pages, removed content, historical URLs, and exposed resources that may no longer exist on the live website.
 
 The Wayback Machine stores snapshots of websites over time, making it useful for understanding how a target website changed historically.
+
 ---
 
 ## What is archive.org?
