@@ -107,7 +107,9 @@ Move Into the Directory
 cd Photon
 ```
 
-https://images/archive-org/photon-install.png
+
+! [Archive Overview](images/archive-org/photon-install.png
+
 
 ### Retrieving archive.org Links
 
