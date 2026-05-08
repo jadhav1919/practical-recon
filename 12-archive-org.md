@@ -101,89 +101,28 @@ Photon is an OSINT and reconnaissance tool that can collect archived URLs from t
 
 ```bash
 git clone https://github.com/s0md3v/Photon.git
+```
 Move Into the Directory
-bash
+```bash
 cd Photon
-Install Requirements
-bash
-pip3 install -r requirements.txt
+```
+
 https://images/archive-org/photon-install.png
 
-Retrieving archive.org Links
-Command
-bash
+### Retrieving archive.org Links
+
+``` bash
 python3 photon.py -u https://example.com -l 3 -t 200 --wayback
-Explanation
+```
+### Explanation
 Option	Meaning
--u	Target URL
--l 3	Crawl depth
--t 200	Number of threads
---wayback	Retrieve archived URLs from archive.org
-Example
-bash
-python3 photon.py -u https://www.microsoft.com -l 3 -t 200 --wayback
-Output May Include
-Internal URLs
-
-External URLs
-
-Archived pages
-
-JavaScript files
-
-Hidden paths
+- -u	Target URL
+- -l 3	Crawl depth
+- -t 200	Number of threads
+- --wayback	Retrieve archived URLs from archive.org
+### Example
+```bash
+python3 photon.py -u https://www.microsoft.com -l 2 -t 20 --wayback
+```
 
 https://images/archive-org/photon-wayback.png
-
-Retrieving Only Archived URLs
-Command
-bash
-python3 photon.py -u https://example.com -l 3 -t 200 --only-urls
-Purpose
-Displays only collected URLs without additional crawl details.
-
-Example
-bash
-python3 photon.py -u https://www.microsoft.com -l 3 -t 200 --only-urls
-https://images/archive-org/photon-only-urls.png
-
-Example Workflow
-Workflow Summary
-Open archive.org
-
-Search target domain
-
-View archived snapshots
-
-Open historical pages
-
-Analyze old content
-
-Use Photon for automated URL collection
-
-Key Learning
-archive.org stores historical website snapshots
-
-Archived pages may contain removed information
-
-Historical URLs assist during reconnaissance
-
-Photon can automate archived URL collection
-
-Archived data helps understand target history
-
-Important Note
-This knowledge should only be used in:
-
-Authorized penetration testing
-
-Labs
-
-CTF environments
-
-Educational research
-
-Approved security assessments
-
-Unauthorized testing against systems without permission may be illegal.
-
