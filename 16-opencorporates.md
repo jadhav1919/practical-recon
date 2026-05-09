@@ -101,7 +101,6 @@ Open the **Officers** or **Directors** section.
 - Related companies
 - Public corporate records
 
-![Directors Information](images/opencorporates/opencorporates-directors.png)
 
 ---
 
@@ -138,7 +137,5 @@ Check linked organizations, subsidiaries, or parent companies.
 - Research target companies for phishing
 
 ---
-
-## 14. Conclusion
 
 OpenCorporates is a powerful OSINT tool for gathering corporate intelligence and business-related information using publicly available company records during the footprinting phase of security assessments.
