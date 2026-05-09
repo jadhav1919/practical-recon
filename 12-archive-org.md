@@ -107,8 +107,7 @@ Move Into the Directory
 cd Photon
 ```
 
-
-! [Archive Overview](images/archive-org/photon-install.png
+![Archive Overview](images/archive-org/photon-install.png)
 
 
 ### Retrieving archive.org Links
@@ -127,4 +126,8 @@ Option	Meaning
 python3 photon.py -u https://www.microsoft.com -l 2 -t 20 --wayback
 ```
 
-https://images/archive-org/photon-wayback.png
+![Photon Wayback Machine Output Example](images/archive-org/photon-wayback.png)
+
+
+
+
