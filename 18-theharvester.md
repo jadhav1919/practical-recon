@@ -57,7 +57,7 @@ theHarvester is valuable for OSINT because it helps:
 sudo apt update
 sudo apt install theharvester
 ```
-![theHarvester Installation](https://images/theharvester/theharvester-install.png)
+![theHarvester Installation](images/theharvester/theharvester-install.png)
 
 ## 6. Start theHarvester
 Run:
@@ -65,7 +65,7 @@ Run:
 ```bash
  theHarvester --help
 ```
-![theHarvester Installation](https://images/theharvester/theharvester-start.png)
+![theHarvester Installation](images/theharvester/theharvester-start.png)
 
 
 ## 7. Basic Syntax
