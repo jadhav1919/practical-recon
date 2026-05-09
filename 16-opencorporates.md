@@ -116,8 +116,6 @@ Check linked organizations, subsidiaries, or parent companies.
 - Business network
 - Corporate structure
 
-![Related Companies](images/opencorporates/opencorporates-related.png)
-
 ---
 
 ## 6. Real-World Usage
