@@ -6,14 +6,10 @@
 
 In cybersecurity and OSINT, it is used during the **footprinting phase** to collect location-based information without directly interacting with the target.
 
-![Google Maps Overview](images/google-maps/google-maps-overview.png)
-
 ---
 
 ## 2. Official Website
 https://maps.google.com
-
-text
 
 ---
 
@@ -28,7 +24,6 @@ Google Maps is valuable for OSINT because it helps:
 - Observe roads and entry points
 - Gather public business information
 
-![Google Maps Why Use](images/google-maps/google-maps-why-use.png)
 
 ---
 
@@ -47,8 +42,6 @@ Google Maps is valuable for OSINT because it helps:
 | Satellite View | Building layout |
 | Street View | Real-world environment |
 
-![Google Maps Information](images/google-maps/google-maps-info.png)
-
 ---
 
 ## 5. How To Use Google Maps
@@ -58,8 +51,6 @@ Google Maps is valuable for OSINT because it helps:
 Open browser and visit:
 https://maps.google.com
 
-text
-
 ![Google Maps Homepage](images/google-maps/google-maps-homepage.png)
 
 ---
@@ -68,8 +59,6 @@ text
 
 Example:
 Microsoft Hyderabad
-
-text
 
 ### Information You Can Gather
 
