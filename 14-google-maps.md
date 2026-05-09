@@ -90,11 +90,6 @@ Microsoft Hyderabad
 
 ### Step 4 – Use Street View
 
-**Steps:**
-1. Drag the yellow Pegman icon
-2. Drop near target location
-
-### Information Gathered
 
 - Building entrances
 - Nearby shops
