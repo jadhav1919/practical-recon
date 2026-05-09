@@ -59,7 +59,7 @@ sudo apt install theharvester
 ```
 ![theHarvester Installation](https://images/theharvester/theharvester-install.png)
 
-6. Start theHarvester
+## 6. Start theHarvester
 Run:
 
 ```bash
@@ -68,17 +68,17 @@ theHarvester
 ![theHarvester Installation](https://images/theharvester/theharvester-start.png)
 
 
-7. Basic Syntax
+## 7. Basic Syntax
 ```bash
-theHarvester -d domain -b source
+theHarvester -d domain -b sourc
 ```
 #### Option	Meaning
 - -d	Target domain
 - -b	Data source
-8. Search Emails & Subdomains
+## 8. Search Emails & Subdomains
 Example
 ```bash
-theHarvester -d microsoft.com -b google
+theHarvester -d microsoft.com -b hackertarget
 ```
 ![theHarvester Installation](https://images/theharvester/theharvester-example.png)
 
