@@ -75,23 +75,7 @@ microsoft.com
 
 ---
 
-### Step 3 – Analyze Domain Overview
-
-Open domain overview section.
-
-### Information Gathered
-
-- Traffic statistics
-- Top countries
-- Domain authority
-- Traffic trends
-- Main competitors
-
-![Domain Overview](images/semrush/semrush-overview.png)
-
----
-
-### Step 4 – Analyze Backlinks
+### Step 3 – Analyze Backlinks
 
 Open backlink analytics section.
 
