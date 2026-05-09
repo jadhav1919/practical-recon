@@ -63,7 +63,7 @@ sudo apt install theharvester
 Run:
 
 ```bash
-theHarvester
+ theHarvester --help
 ```
 ![theHarvester Installation](https://images/theharvester/theharvester-start.png)
 
