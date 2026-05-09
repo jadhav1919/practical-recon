@@ -87,8 +87,6 @@ Use mouse scroll or zoom controls.
 - Parking spaces
 - Open areas
 
-![Zoomed Target Area](images/google-earth/google-earth-zoom.png)
-
 ---
 
 ### Step 4 – Enable 3D View
@@ -104,23 +102,6 @@ Use mouse scroll or zoom controls.
 - Nearby buildings
 - Rooftop visibility
 
-![3D View](images/google-earth/google-earth-3d.png)
-
----
-
-### Step 5 – Measure Distance
-
-**Steps:**
-1. Select Measure tool
-2. Choose two points
-
-### Information Gathered
-
-- Distance between buildings
-- Nearby access routes
-- Perimeter estimation
-
-![Distance Measurement](images/google-earth/google-earth-measure.png)
 
 ---
 
