@@ -105,17 +105,3 @@ Open organic research section.
 
 ---
 
-### Step 6 – Discover Competitors
-
-Open competitors section.
-
-### Information Gathered
-
-- Similar domains
-- Competing websites
-- Industry-related organizations
-- Business relationships
-
-![Competitor Analysis](images/semrush/semrush-competitors.png)
-
----
