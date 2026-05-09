@@ -80,5 +80,7 @@ Example
 ```bash
 theHarvester -d microsoft.com -b hackertarget
 ```
-![theHarvester Installation](https://images/theharvester/theharvester-example.png)
+
+![theHarvester Installation](images/theharvester/theharvester-example.png)
+
 
