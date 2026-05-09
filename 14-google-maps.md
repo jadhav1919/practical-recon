@@ -86,8 +86,6 @@ Microsoft Hyderabad
 - Nearby roads
 - Office surroundings
 
-![Satellite View](images/google-maps/google-maps-satellite.png)
-
 ---
 
 ### Step 4 – Use Street View
@@ -110,10 +108,10 @@ Microsoft Hyderabad
 ### Step 5 – Search Nearby Locations
 
 ### Example Searches
-ATMs near Microsoft Hyderabad
-Hotels near Microsoft Hyderabad
-Parking near Microsoft Hyderabad
-Restaurants near Microsoft Hyderabad
+- ATMs near Microsoft Hyderabad
+- Hotels near Microsoft Hyderabad
+- Parking near Microsoft Hyderabad
+- Restaurants near Microsoft Hyderabad
 
 text
 
@@ -146,121 +144,7 @@ text
 - Understand security layouts
 - Plan physical breaches
 
-![Real World Usage](images/google-maps/google-maps-usage.png)
 
 ---
-
-## 7. Advantages
-
-- ✅ Free tool
-- ✅ Easy to use
-- ✅ Public information only
-- ✅ Real-world imagery
-- ✅ No direct interaction with target
-- ✅ Available on desktop and mobile
-
----
-
-## 8. Limitations
-
-- ❌ Some images may be outdated
-- ❌ Limited indoor visibility
-- ❌ Requires internet access
-- ❌ Cannot see inside buildings
-- ❌ Street View not available everywhere
-
----
-
-## 9. Important CEH Points
-
-- Google Maps is a **passive reconnaissance** tool
-- Used in the **footprinting** phase
-- Helps gather **geographical intelligence**
-- Part of **OSINT (Open Source Intelligence)**
-- No direct interaction with the target organization
-
----
-
-## 10. Practical Example: Microsoft Hyderabad
-
-### Step-by-Step Reconnaissance
-
-| Step | Action | Information Gathered |
-|------|--------|---------------------|
-| 1 | Search "Microsoft Hyderabad" | Full address, phone number, website |
-| 2 | Check Photos | Building images, office interiors |
-| 3 | Satellite View | Building layout, parking, roads |
-| 4 | Street View | Entrances, security, surroundings |
-| 5 | Nearby Search | ATMs, hotels, restaurants, metro |
-
-### Example Results
-Address: Gachibowli, Hyderabad, Telangana 500032
-Phone: +91 40 6694 3000
-Website: microsoft.com
-Hours: Monday-Friday (9 AM - 6 PM)
-Nearby: Gachibowli Metro, IT Park, Hotels
-
-text
-
-![Practical Example](images/google-maps/google-maps-practical.png)
-
----
-
-## 11. Security Use Cases
-
-| Use Case | Purpose |
-|----------|---------|
-| Physical Penetration Testing | Identify access points, security cameras |
-| Social Engineering | Understand office environment |
-| Red Teaming | Plan physical breach scenarios |
-| OSINT Investigation | Gather location intelligence |
-| Competitive Intelligence | Study competitor offices |
-
----
-
-## 12. Ethical Note
-
-✅ **Do:**
-- Use for educational purposes
-- Use for authorized security assessments
-- Gather publicly available information
-- Document findings professionally
-
-❌ **Don't:**
-- Use for stalking or harassment
-- Plan illegal activities
-- Trespass on private property
-- Violate privacy laws
-
----
-
-## 13. Screenshots Required
-
-| # | Screenshot | Filename | Status |
-|---|------------|----------|--------|
-| 1 | Google Maps Homepage | `google-maps-homepage.png` | ⬜ Pending |
-| 2 | Google Maps Overview | `google-maps-overview.png` | ⬜ Pending |
-| 3 | Why Use Google Maps | `google-maps-why-use.png` | ⬜ Pending |
-| 4 | Information Table | `google-maps-info.png` | ⬜ Pending |
-| 5 | Target Search Result | `google-maps-search.png` | ⬜ Pending |
-| 6 | Satellite View | `google-maps-satellite.png` | ⬜ Pending |
-| 7 | Street View | `google-maps-streetview.png` | ⬜ Pending |
-| 8 | Nearby Search | `google-maps-nearby.png` | ⬜ Pending |
-| 9 | Real World Usage | `google-maps-usage.png` | ⬜ Pending |
-| 10 | Practical Example | `google-maps-practical.png` | ⬜ Pending |
-
----
-
-## 14. Key Takeaways
-
-- Google Maps is a powerful OSINT tool for geographical reconnaissance
-- Provides satellite, street view, and business information
-- Helps gather physical intelligence without direct interaction
-- Useful for footprinting phase of security assessments
-- Should only be used ethically and for authorized purposes
-
----
-
-## 15. Conclusion
 
 Google Maps is a powerful OSINT tool used for gathering geographical and organizational information through publicly available data. It is an essential tool in the footprinting phase of any security assessment.
