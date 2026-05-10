@@ -55,7 +55,7 @@ cd sherlock
 ## 6. Start Sherlock
 
 ``` bash
-sherlock.py --help
+sherlock --help
 ```
 ![Sherlock Start](images/sherlock/sherlock-start.png)
 
@@ -71,7 +71,7 @@ sherlock username
 Example
 
 ```bash
-python3 sherlock.py elonmusk
+sherlock elonmusk
 ```
 ![Sherlock Search](images/sherlock/sherlock-search.png)
 
