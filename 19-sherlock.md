@@ -55,13 +55,13 @@ cd sherlock
 ## 6. Start Sherlock
 
 ``` bash
-python3 sherlock.py --help
+sherlock.py --help
 ```
 ![Sherlock Start](images/sherlock/sherlock-start.png)
 
 ## 7. Basic Syntax
 ``` bash
-python3 sherlock.py username
+sherlock username
 ```
 #### Option	Meaning
 - username	Target username to search
@@ -70,7 +70,8 @@ python3 sherlock.py username
 ## 8. Search Username
 Example
 
-bash
+```bash
 python3 sherlock.py elonmusk
+```
 ![Sherlock Search](images/sherlock/sherlock-search.png)
 
