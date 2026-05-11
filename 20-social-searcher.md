@@ -11,8 +11,6 @@ In cybersecurity and OSINT, Social Searcher is used during the **footprinting ph
 ## 2. Official Website
 https://www.social-searcher.com
 
-text
-
 ---
 
 ## 3. Why Security Researchers Use Social Searcher
@@ -26,8 +24,6 @@ Social Searcher is valuable for OSINT because it helps:
 - Monitor brand mentions
 - Discover shared content
 - Gather social intelligence
-
-![Social Searcher Why Use](images/social-searcher/social-searcher-why-use.png)
 
 ---
 
@@ -46,7 +42,6 @@ Social Searcher is valuable for OSINT because it helps:
 | Related Content | Shared articles |
 | Real-Time Discussions | Ongoing conversations |
 
-![Social Searcher Information](images/social-searcher/social-searcher-info.png)
 
 ---
 
@@ -57,8 +52,6 @@ Social Searcher is valuable for OSINT because it helps:
 Open browser and visit:
 https://www.social-searcher.com
 
-text
-
 ![Social Searcher Homepage](images/social-searcher/social-searcher-homepage.png)
 
 ---
@@ -68,14 +61,9 @@ text
 Example:
 Bill Gates
 
-text
 
 ### Information You Can Gather
 
-- social media posts
-- public mentions
-- shared content
-- profile activity
 
 ![Target Search Results](images/social-searcher/social-searcher-search.png)
 
@@ -97,7 +85,6 @@ Social Searcher displays:
 - recent activity
 - shared content
 
-![Social Media Posts](images/social-searcher/social-searcher-posts.png)
 
 ---
 
@@ -120,54 +107,3 @@ text
 ![Keyword Monitoring](images/social-searcher/social-searcher-keywords.png)
 
 ---
-
-### Step 5 – Filter Results
-
-Use filters:
-
-- date
-- platform
-- language
-- sentiment
-
-### Information Gathered
-
-- targeted discussions
-- platform-specific activity
-- recent mentions
-
-![Filtered Results](images/social-searcher/social-searcher-filters.png)
-
----
-
-## 6. Real-World Usage
-
-### Security Researchers Use Social Searcher To:
-
-- perform social media OSINT
-- monitor public discussions
-- analyze social activity
-- track organization mentions
-- gather public intelligence
-
-### Attackers May Use It To:
-
-- identify social engineering targets
-- collect personal information
-- monitor employee activity
-- gather phishing intelligence
-- track public conversations
-
-![Social Searcher Usage](images/social-searcher/social-searcher-usage.png)
-
----
-
-## 7. Key Takeaways
-
-- Social Searcher is a free social media OSINT tool
-- Searches multiple platforms (X, Facebook, Instagram, etc.)
-- Useful for monitoring mentions and public discussions
-- Helps gather social intelligence during footprinting
-- Should only be used for authorized research
-
-![Social Searcher Takeaways](images/social-searcher/social-searcher-takeaways.png)
