@@ -95,8 +95,6 @@ Microsoft
 Cybersecurity
 OpenAI
 
-text
-
 ### Information Gathered
 
 - trending topics
