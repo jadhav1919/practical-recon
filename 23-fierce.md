@@ -79,17 +79,3 @@ fierce --domain microsoft.com
 - network structure
 
 ![Basic Scan](images/fierce/fierce-basic.png)
-
-## 8. Search Specific Subdomains
-Example
-``` bash
-fierce --domain microsoft.com --subdomains mail admin vpn
-``` 
-### Information Gathered
-- targeted subdomains
-- mail servers
-- admin panels
-- VPN systems
-
-![Subdomain Scan](images/fierce/fierce-subdomains.png)
-
