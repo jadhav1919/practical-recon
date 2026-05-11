@@ -104,7 +104,7 @@ traceroute www.google.com
 
 
 ## 9. Important Concepts
-###Hop
+### Hop
 - Each router between source and destination.
 - TTL (Time To Live)
 Limits how many routers a packet can pass through.
