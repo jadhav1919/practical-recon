@@ -54,8 +54,7 @@ Whois Lookup is valuable for OSINT because it helps:
 ### Step 1 – Open Whois Website
 
 Open browser and visit:
-https://www.whois.com/whois
-
+https://whois.domaintools.com/microsoft.com
 ![Whois Homepage](images/whois/whois-homepage.png)
 
 ---
