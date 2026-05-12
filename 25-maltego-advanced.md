@@ -350,7 +350,7 @@ Applications → Information Gathering → Maltego
 
 ## 20. Privacy Mode
 
-![Privacy Mode](images/maltego/PM.png)
+![Privacy Mode](images/maltego/PM1.png)
 
 - Select **"Normal Mode"**
 
