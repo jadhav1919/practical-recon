@@ -91,27 +91,6 @@ pip3 install -r REQUIREMENTS
 
 python3 recon-ng
 ```
-
----
-
-# Starting Recon-ng
-
-```bash
-recon-ng
-```
-
-Expected Output:
-
-```bash
-[recon-ng][default] >
-```
-
----
-
-## Screenshot
-
-![Starting Recon-ng](images/recon-ng/recon-start.png)
-
 ---
 
 # Basic Workflow
@@ -156,7 +135,7 @@ Stores:
 ## Create Workspace
 
 ```bash
-workspaces create ceh_lab
+workspaces create test_lab
 ```
 
 ## List Workspaces
@@ -182,29 +161,6 @@ workspaces remove ceh_lab
 ## Screenshot
 
 ![Workspace Commands](images/recon-ng/workspaces.png)
-
----
-
-# Dashboard
-
-Displays activity summary.
-
-```bash
-dashboard
-```
-
-Shows:
-- Domains
-- Hosts
-- Contacts
-- Vulnerabilities
-- Modules used
-
----
-
-## Screenshot
-
-![Dashboard Output](images/recon-ng/dashboard.png)
 
 ---
 
@@ -242,7 +198,7 @@ db insert domains
 Enter:
 
 ```text
-example.com
+iiitkottayam.ac.in
 ```
 
 ---
