@@ -516,13 +516,13 @@ The Domain Entity becomes the starting point of the investigation.
 ---
 
 ## Action
-```text
-On the left side:
+
+#### On the left side:
 - Open the **Entity Palette**
 - Search for: Domain
 - Drag the **Domain Entity**
 - Drop it into the graph workspace
----
+
 
 ![Drag Domain Entity](images/maltego/domain.png)
 
