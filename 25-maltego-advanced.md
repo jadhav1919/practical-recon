@@ -177,68 +177,104 @@ Applications → Information Gathering → Maltego
 ---
 # Maltego Installation & Setup Guide
 
-
-### 1. Run Installer
+## 1. Run Installer
 
 ![Maltego Startup](images/maltego/maltego-startup.png)
 
-> Click "Next" to continue
+> Click **"Next"** to continue
 
-### 2. Activation Method
-![Activation Option](./screenshots/activation-option1)
+---
+
+## 2. Activation Method
+
+![Activation Option](images/maltego/activation-option1.png)
+
 - Select **"Default Online Activation"**
-- Click "Next"
+- Click **"Next"**
 
-### 3. License Agreement
-![License Agreement](./screenshots/license-agreement.png)
-- Accept terms
-- Click "Next"
+---
 
-### 4. Login to Maltego
-![Login Prompt](./screenshots/login-prompt.png)
-**Option:** Click **"Browser Login"** button
+## 3. License Agreement
 
-### 5. Browser Login Page
-![Browser Login](./screenshots/browser-login-page.png)
-- Click **"Create ID"** (if no account exists)
+![License Agreement](images/maltego/license-agreement.png)
 
-### 6. Account Creation Form
-![Create Account](./screenshots/create-account-form.png)
-- Enter email address
-- Enter first and last name
-- Click "Continue"
+- Accept the terms and conditions
+- Click **"Next"**
 
-### 7. Create Password
-![Password Creation](./screenshots/email-verification.png)
-- Create strong password
-- Click "Continue"
+---
 
-### 8. OTP Verification
-![OTP Verification](./screenshots/otp-verification.png)
-- Check email for OTP code
-- Enter code
-- Click "Verify"
+## 4. Login to Maltego
 
-### 9. Log in to maltego
-![login to maltego](./screenshots/logintomal.png)
-- Enter email and password
-### 10. Country and Phone
+![Login Prompt](images/maltego/login-prompt.png)
 
-![Country Phone](./screenshots/country-phone.png)
-- Select country
-- Enter phone number
-- Click "Continue"
+- Click **"Browser Login"**
 
-### 10. Additional Questions
-![Additional Questions](./screenshots/10-additional-questions.png)
-- Answer optional questions
-- Click "Continue"
-- Close browser and return to Maltego
+---
 
-### 11. Activation Complete
-![Activation Complete](./screenshots/11-activation-complete.png)
-- Click "Next"
+## 5. Browser Login Page
 
+![Browser Login](images/maltego/browser-login-page.png)
+
+- Click **"Create ID"** if you do not already have an account
+
+---
+
+## 6. Account Creation Form
+
+![Create Account](images/maltego/create-account-form.png)
+
+- Enter your email address
+- Enter your first and last name
+- Click **"Continue"**
+
+---
+
+## 7. Email Verification / Password Setup
+
+![Email Verification](images/maltego/email-verification.png)
+
+- Create a strong password
+- Click **"Continue"**
+
+---
+
+## 8. OTP Verification
+
+![OTP Verification](images/maltego/otp-verification.png)
+
+- Check your email for the OTP code
+- Enter the verification code
+- Click **"Verify"**
+
+---
+
+## 9. Country and Phone Number
+
+![Country Phone](images/maltego/country-phone.png)
+
+- Select your country
+- Enter your phone number
+- Click **"Continue"**
+
+---
+
+## 10. Activation Complete
+
+![Activation Option](images/maltego/activation-option.png)
+
+- Return to the Maltego application
+- Continue through the activation process
+
+---
+
+## 11. Installation Finished
+
+![Maltego Install](images/maltego/maltego-install.png)
+
+- Click **"Finish"**
+- Maltego opens with a blank graph workspace
+
+---
 ### 12. Data Sources
 ![Data Sources](./screenshots/12-data-sources-selection.png)
 - Utilities already selected (keep as is)
