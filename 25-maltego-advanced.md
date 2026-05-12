@@ -413,50 +413,465 @@ Run More Transforms
       ↓
 Build Intelligence Graph
 
-## 13. Creating Your First Investigation
-### Step 1 – Create New Graph
-Click: New Graph
+# Case Study 1 — Investigating a Target Domain Using Maltego
 
-This creates a blank workspace.
+# Objective
 
-### Step 2 – Add Domain Entity
-From left side: Entity Palette
+In this investigation, we want to gather intelligence about a target domain.
 
-Search: Domain
-
-Drag it into graph workspace.
-
-### Step 3 – Set Target Domain
-Double click entity.
-
-Replace paterva.com with:
-
-microsoft.com
-OR
-
-tesla.com
-### Step 4 – Run Transforms
-Right click: Domain Entity
-
-Select: Run All Transforms
-
-OR choose specific transforms.
-
-### Step 5 – Wait for Results
-Maltego now gathers:
-
-- DNS records
-
-- emails
+We will learn how to identify:
 
 - IP addresses
+- DNS records
+- Subdomains
+- Email addresses
+- Servers
+- Organization details
+- Relationships between infrastructure
 
-- subdomains
+This is the basic workflow used in real OSINT and reconnaissance investigations.
 
-- organizations
+---
 
-- servers
+# Investigation Scenario
 
-- Graph expands automatically.
+Suppose we want to investigate:
 
-![First Investigation](images/maltego/maltego-first-investigation.png)
+```text
+tesla.com
+```
+
+Our goal is to understand:
+
+- What infrastructure belongs to Tesla
+- Which servers are connected
+- Which domains and subdomains exist
+- What public information is exposed
+
+---
+
+# Investigation Workflow
+
+```text
+Target Domain
+      │
+      ▼
+Domain Entity Added
+      │
+      ▼
+Run Transforms
+      │
+      ▼
+Gather Information
+      │
+      ├── IP Addresses
+      ├── DNS Records
+      ├── Email Addresses
+      ├── Subdomains
+      ├── Servers
+      └── Organizations
+      │
+      ▼
+Visual Investigation Graph
+```
+
+---
+
+# Step 1 — Create a New Investigation Graph
+
+## Purpose
+
+A graph is the workspace where all investigation data will be visualized.
+
+---
+
+## Action
+
+Open Maltego and click:
+
+```text
+New Graph
+```
+
+---
+
+## Screenshot
+
+![New Graph](images/maltego/new-graph.png)
+
+---
+
+## What Happens
+
+A blank investigation workspace opens.
+
+This is where all entities and collected intelligence will appear.
+
+---
+
+# Step 2 — Understand the Interface
+
+## Purpose
+
+Before investigating, understand the important sections of the Maltego interface.
+
+---
+
+## Important Areas
+
+| Section | Purpose |
+|---|---|
+| Entity Palette | Contains investigation entities |
+| Graph Area | Main investigation workspace |
+| Transform Hub | Runs intelligence gathering operations |
+| Property View | Shows selected entity details |
+
+---
+
+## Screenshot
+
+![Maltego Interface](images/maltego/maltego-interface-overview.png)
+
+---
+
+# Step 3 — Open the Entity Palette
+
+## Purpose
+
+Entities represent investigation objects such as:
+
+- Domains
+- IP addresses
+- Emails
+- People
+- Companies
+- Websites
+
+For this case study we need a:
+
+```text
+Domain Entity
+```
+
+---
+
+## Action
+
+On the left side:
+
+- Open the **Entity Palette**
+- Search for:
+
+```text
+Domain
+```
+
+---
+
+## Screenshot
+
+![Search Domain Entity](images/maltego/search-domain-entity.png)
+
+---
+
+# Step 4 — Add the Domain Entity
+
+## Purpose
+
+The Domain Entity becomes the starting point of the investigation.
+
+---
+
+## Action
+
+- Drag the **Domain Entity**
+- Drop it into the graph workspace
+
+---
+
+## Screenshot
+
+![Drag Domain Entity](images/maltego/domain.png)
+
+---
+
+## What Happens
+
+Maltego creates a domain node in the graph.
+
+Default value:
+
+```text
+paterva.com
+```
+
+---
+
+# Step 5 — Set the Investigation Target
+
+## Purpose
+
+We now define the actual target we want to investigate.
+
+---
+
+## Action
+
+Double-click the domain entity.
+
+Replace:
+
+```text
+paterva.com
+```
+
+with:
+
+```text
+tesla.com
+```
+
+---
+
+## Screenshot
+
+![Set Target Domain](images/maltego/set-domain.png)
+
+---
+
+## Why This Matters
+
+Everything discovered later will be connected to this target.
+
+This becomes the root node of the investigation.
+
+---
+
+# Step 6 — Understanding Transforms
+
+# What Are Transforms?
+
+Transforms are automated intelligence-gathering operations.
+
+They query public sources and APIs to collect information.
+
+---
+
+# What Can Transforms Discover?
+
+| Information Type | Example |
+|---|---|
+| IP Addresses | 192.168.x.x |
+| DNS Records | MX, TXT, A records |
+| Subdomains | mail.domain.com |
+| Emails | admin@domain.com |
+| Technologies | Apache, Nginx |
+| Organizations | Hosting providers |
+
+---
+
+# Step 7 — Run Transforms
+
+## Action
+
+Right-click the Domain Entity.
+
+Select:
+
+```text
+Run All Transforms
+```
+
+OR choose individual transforms manually.
+
+---
+
+## Screenshot
+
+![Run Transforms](images/maltego/run-transforms.png)
+
+---
+
+# What Happens Internally
+
+Maltego now:
+
+1. Queries DNS infrastructure
+2. Checks public intelligence sources
+3. Collects related entities
+4. Maps relationships automatically
+
+---
+
+# Step 8 — Wait for Results
+
+## Purpose
+
+Transforms now begin gathering intelligence.
+
+---
+
+## Screenshot
+
+![Transform Running](images/maltego/transform-running.png)
+
+---
+
+## Information Being Gathered
+
+Maltego may now discover:
+
+- DNS records
+- IP addresses
+- Name servers
+- Mail servers
+- Technologies
+- Subdomains
+- Organization names
+
+---
+
+# Step 9 — Analyze the Results
+
+## Screenshot
+
+![Transform Results](images/maltego/transform-results.png)
+
+---
+
+# Understanding the Graph
+
+Each node represents discovered intelligence.
+
+Example:
+
+```text
+tesla.com
+   │
+   ├── mail.tesla.com
+   ├── ns1.tesla.com
+   ├── IP Address
+   ├── MX Records
+   └── Servers
+```
+
+---
+
+# What the Relationships Mean
+
+| Relationship | Meaning |
+|---|---|
+| Domain → IP | Server hosting the domain |
+| Domain → MX | Mail server |
+| Domain → NS | DNS server |
+| Domain → Email | Publicly discovered emails |
+
+---
+
+# Step 10 — Expand the Investigation
+
+## Purpose
+
+OSINT investigations grow step-by-step.
+
+You can continue investigating discovered entities.
+
+---
+
+# Example
+
+Right-click an IP address and run transforms again.
+
+This may reveal:
+
+- Hosting providers
+- Nearby infrastructure
+- Additional domains
+- WHOIS information
+
+---
+
+## Screenshot
+
+![Expand Investigation](images/maltego/expand-investigation.png)
+
+---
+
+# Final Investigation Graph
+
+## Screenshot
+
+![Final Investigation](images/maltego/final-investigation.png)
+
+---
+
+# What We Learned
+
+In this investigation we learned:
+
+- How to create graphs
+- How entities work
+- How transforms gather intelligence
+- How Maltego visualizes relationships
+- How infrastructure mapping works
+
+---
+
+# Key Concepts Learned
+
+| Concept | Description |
+|---|---|
+| Entity | Investigation object |
+| Transform | Intelligence gathering action |
+| Graph | Visualization workspace |
+| Node | Discovered information |
+| Relationship | Connection between entities |
+
+---
+
+# Screenshots Required
+
+Place these images inside:
+
+```text
+images/maltego/
+```
+
+| Screenshot | File Name |
+|---|---|
+| New Graph | new-graph.png |
+| Interface Overview | maltego-interface-overview.png |
+| Search Domain Entity | search-domain-entity.png |
+| Drag Domain | drag-domain.png |
+| Set Domain | set-domain.png |
+| Run Transforms | run-transforms.png |
+| Transform Running | transform-running.png |
+| Transform Results | transform-results.png |
+| Expand Investigation | expand-investigation.png |
+| Final Investigation | final-investigation.png |
+
+---
+
+# Practice Targets
+
+Use only public domains for learning:
+
+```text
+tesla.com
+microsoft.com
+github.com
+openai.com
+```
+
+---
+
+# Important Note
+
+This investigation is for:
+
+- OSINT learning
+- Cybersecurity education
+- Infrastructure analysis
+- Research purposes only
+
+Do not investigate systems without authorization.
