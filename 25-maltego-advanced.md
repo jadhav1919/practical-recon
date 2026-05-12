@@ -191,21 +191,10 @@ Applications → Information Gathering → Maltego
 - then provicy mode option select Normal ( in normal mode ur ip address is expossed during  investigations,  stealth mode blocks ur computer from fetching data directly  protecting your ip address from being exposed to targets, for this we keep Normal mode then click   next then click finish  then maltego open with blank graph
 - then A Privacy policy notice displays click Acknowledge  then a tutorial guide start automatically
 - then left is Entity Palette 
-## 10. First-Time Setup
-When Maltego opens:
 
-### Step 1
-Create free account
+![Maltego Setup](images/maltego/maltego-setup.png)
 
-### Step 2
-Login
-
-### Step 3
-Choose: Maltego CE (Community Edition)
-
-https://images/maltego/maltego-setup.png
-
-## 11. Understanding the Interface
+## 10. Understanding the Interface
 #### Section	Purpose
 - Entity Palette	Contains entities
 - Graph Area	Workspace
