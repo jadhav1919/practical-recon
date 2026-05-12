@@ -165,7 +165,7 @@ Windows/Linux/Mac Download
 Download from:
 
 https://www.maltego.com/downloads
-https://images/maltego/maltego-install.png
+![Maltego Installation](images/maltego/maltego-install.png)
 ## 9. Starting Maltego
 Run:
 
