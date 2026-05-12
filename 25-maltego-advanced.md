@@ -185,12 +185,12 @@ Applications → Information Gathering → Maltego
 > Click "Next" to continue
 
 ### 2. Activation Method
-![Activation Option](./screenshots/02-activation-option.png)
+![Activation Option](./screenshots/activation-option.png)
 - Select **"Default Online Activation"**
 - Click "Next"
 
 ### 3. License Agreement
-![License Agreement](./screenshots/03-license-agreement.png)
+![License Agreement](./screenshots/license-agreement.png)
 - Accept terms
 - Click "Next"
 
