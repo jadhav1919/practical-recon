@@ -495,8 +495,6 @@ New Graph
 
 ---
 
-## Screenshot
-
 ![New Graph](images/maltego/new-graph.png)
 
 ---
@@ -509,72 +507,7 @@ This is where all entities and collected intelligence will appear.
 
 ---
 
-# Step 2 — Understand the Interface
-
-## Purpose
-
-Before investigating, understand the important sections of the Maltego interface.
-
----
-
-## Important Areas
-
-| Section | Purpose |
-|---|---|
-| Entity Palette | Contains investigation entities |
-| Graph Area | Main investigation workspace |
-| Transform Hub | Runs intelligence gathering operations |
-| Property View | Shows selected entity details |
-
----
-
-## Screenshot
-
-![Maltego Interface](images/maltego/maltego-interface-overview.png)
-
----
-
-# Step 3 — Open the Entity Palette
-
-## Purpose
-
-Entities represent investigation objects such as:
-
-- Domains
-- IP addresses
-- Emails
-- People
-- Companies
-- Websites
-
-For this case study we need a:
-
-```text
-Domain Entity
-```
-
----
-
-## Action
-
-On the left side:
-
-- Open the **Entity Palette**
-- Search for:
-
-```text
-Domain
-```
-
----
-
-## Screenshot
-
-![Search Domain Entity](images/maltego/search-domain-entity.png)
-
----
-
-# Step 4 — Add the Domain Entity
+# Step 2 — Add the Domain Entity
 
 ## Purpose
 
@@ -583,13 +516,13 @@ The Domain Entity becomes the starting point of the investigation.
 ---
 
 ## Action
-
+```text
+On the left side:
+- Open the **Entity Palette**
+- Search for: Domain
 - Drag the **Domain Entity**
 - Drop it into the graph workspace
-
 ---
-
-## Screenshot
 
 ![Drag Domain Entity](images/maltego/domain.png)
 
