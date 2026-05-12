@@ -174,8 +174,23 @@ maltego
 OR open from:
 
 Applications → Information Gathering → Maltego
+---
 ![Maltego Startup](images/maltego/maltego-startup.png)
-
+- ckick next to continue
+- Default Online Activation then click next
+- License Agreement ( accept it then click next )
+- then we have login option first we need to crate account for that click broser Login option
+- then Default browser open Maltego login page then click create ID
+- then enster ur email address along with your first and last names then click continue
+- then create password then they will send otp to your email then enter ur otp then click verify
+- then login
+- then the setup form ask for county and  phone number then continue
+- final form with additional questions displays then click continue then close the broser then back to maltego  you can you now successful login then click next , Once activation completes proceed to next
+- then data sources ( Utilities alreday selected  then click next
+- Accept the terms and conditions then next tne next till web Browser options  then select  your preferred web browser then next 
+- then provicy mode option select Normal ( in normal mode ur ip address is expossed during  investigations,  stealth mode blocks ur computer from fetching data directly  protecting your ip address from being exposed to targets, for this we keep Normal mode then click   next then click finish  then maltego open with blank graph
+- then A Privacy policy notice displays click Acknowledge  then a tutorial guide start automatically
+- then left is Entity Palette 
 ## 10. First-Time Setup
 When Maltego opens:
 
