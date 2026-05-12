@@ -162,9 +162,8 @@ sudo apt update
 sudo apt install maltego
 ```
 Windows/Linux/Mac Download
-Download from:
-
-https://www.maltego.com/downloads
+- Download from:  https://www.maltego.com/downloads
+  ---
 ![Maltego Installation](images/maltego/maltego-install.png)
 ## 9. Starting Maltego
 Run:
@@ -175,7 +174,7 @@ maltego
 OR open from:
 
 Applications → Information Gathering → Maltego
-https://images/maltego/maltego-startup.png
+![Maltego Startup](images/maltego/maltego-startup.png)
 
 ## 10. First-Time Setup
 When Maltego opens:
