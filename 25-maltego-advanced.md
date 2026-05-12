@@ -185,7 +185,7 @@ Applications → Information Gathering → Maltego
 > Click "Next" to continue
 
 ### 2. Activation Method
-![Activation Option](./screenshots/activation-option.png)
+![Activation Option](./screenshots/activation-option)
 - Select **"Default Online Activation"**
 - Click "Next"
 
