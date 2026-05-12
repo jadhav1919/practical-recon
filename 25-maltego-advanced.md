@@ -175,24 +175,106 @@ OR open from:
 
 Applications → Information Gathering → Maltego
 ---
-![Maltego Startup](images/maltego/maltego-startup.png)
-- ckick next to continue
-- Default Online Activation then click next
-- License Agreement ( accept it then click next )
-- then we have login option first we need to crate account for that click broser Login option
-- then Default browser open Maltego login page then click create ID
-- then enster ur email address along with your first and last names then click continue
-- then create password then they will send otp to your email then enter ur otp then click verify
-- then login
-- then the setup form ask for county and  phone number then continue
-- final form with additional questions displays then click continue then close the broser then back to maltego  you can you now successful login then click next , Once activation completes proceed to next
-- then data sources ( Utilities alreday selected  then click next
-- Accept the terms and conditions then next tne next till web Browser options  then select  your preferred web browser then next 
-- then provicy mode option select Normal ( in normal mode ur ip address is expossed during  investigations,  stealth mode blocks ur computer from fetching data directly  protecting your ip address from being exposed to targets, for this we keep Normal mode then click   next then click finish  then maltego open with blank graph
-- then A Privacy policy notice displays click Acknowledge  then a tutorial guide start automatically
-- then left is Entity Palette 
+# Maltego Installation & Setup Guide
 
-![Maltego Setup](images/maltego/maltego-setup.png)
+
+### 1. Run Installer
+
+![Maltego Startup](images/maltego/maltego-startup.png)
+
+> Click "Next" to continue
+
+### 2. Activation Method
+![Activation Option](./screenshots/02-activation-option.png)
+- Select **"Default Online Activation"**
+- Click "Next"
+
+### 3. License Agreement
+![License Agreement](./screenshots/03-license-agreement.png)
+- Accept terms
+- Click "Next"
+
+### 4. Login to Maltego
+![Login Prompt](./screenshots/04-login-prompt.png)
+**Option:** Click **"Browser Login"** button
+
+### 5. Browser Login Page
+![Browser Login](./screenshots/05-browser-login-page.png)
+- Click **"Create ID"** (if no account exists)
+
+### 6. Account Creation Form
+![Create Account](./screenshots/06-create-account-form.png)
+- Enter email address
+- Enter first and last name
+- Click "Continue"
+
+### 7. Create Password
+![Password Creation](./screenshots/07-email-verification.png)
+- Create strong password
+- Click "Continue"
+
+### 8. OTP Verification
+![OTP Verification](./screenshots/08-otp-verification.png)
+- Check email for OTP code
+- Enter code
+- Click "Verify"
+
+### 9. Country & Phone
+![Country Phone](./screenshots/09-country-phone.png)
+- Select country
+- Enter phone number
+- Click "Continue"
+
+### 10. Additional Questions
+![Additional Questions](./screenshots/10-additional-questions.png)
+- Answer optional questions
+- Click "Continue"
+- Close browser and return to Maltego
+
+### 11. Activation Complete
+![Activation Complete](./screenshots/11-activation-complete.png)
+- Click "Next"
+
+### 12. Data Sources
+![Data Sources](./screenshots/12-data-sources-selection.png)
+- Utilities already selected (keep as is)
+- Click "Next"
+
+### 13. Terms & Conditions
+![Terms](./screenshots/13-terms-accept.png)
+- Accept terms and conditions
+- Click "Next" (continue through prompts)
+
+### 14. Browser Options
+![Browser Selection](./screenshots/14-browser-selection.png)
+- Select your preferred web browser
+- Click "Next"
+
+### 15. Privacy Mode
+![Privacy Mode](./screenshots/15-privacy-mode.png)
+- **Select: Normal Mode**
+  > *Why Normal?* Stealth mode blocks IP exposure but may limit some investigations. Normal mode allows full functionality.
+
+- Click "Next"
+
+### 16. Finish Installation
+![Finish](./screenshots/16-install-finish.png)
+- Click "Finish"
+- Maltego opens with blank graph
+
+### 17. Privacy Policy Notice
+![Privacy Notice](./screenshots/17-privacy-notice.png)
+- Click **"Acknowledge"**
+
+### 18. Tutorial Guide
+![Tutorial](./screenshots/18-tutorial-start.png)
+- Tutorial starts automatically (follow or skip)
+
+### 19. Entity Palette
+![Entity Palette](./screenshots/19-entity-palette.png)
+- **Left panel:** Entity Palette (where drag-and-drop entities live)
+- Ready for investigations!
+
 
 ## 10. Understanding the Interface
 #### Section	Purpose
