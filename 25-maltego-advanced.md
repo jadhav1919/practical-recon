@@ -247,71 +247,76 @@ Applications → Information Gathering → Maltego
 - Click **"Verify"**
 
 ---
+## 9. Log in to Maltego
+![login](images/maltego/login1.png)
+-Now log in with your credentials
 
-## 9. Country and Phone Number
+## 10. Country and Phone Number
 
-![Country Phone](images/maltego/country-phone.png)
+![Country Phone](images/maltego/country-phone1.png)
 
 - Select your country
 - Enter your phone number
 - Click **"Continue"**
 
 ---
+## 11,final form with additional questions
+![additonal](images/maltego/additional1.png)
+- this information does not effect your activation so answer however prefer and submit close the browser and return to Maltego
+## 12, configuration 
+![configuration](images/maltego/configuration.png)
+- this show Browser login was successful
+- click next
 
-## 10. Activation Complete
+## 13. Maltego ID activation
+![Activation ](images/maltego/activatio1.png)
+- click next
 
-![Activation Option](images/maltego/activation-option.png)
+## 14.Select Data Sources
 
-- Return to the Maltego application
-- Continue through the activation process
+![datasouces ](images/maltego/data.png)
+- Data source selection displays with Utilities alredy selected 
+- click next
+## 15.Download Data source
+![source](images/maltego/source.png)
+- this installs the basic transforms you need for investigations
+- click next
 
----
+## 16. Data Sources T&cs
+![t&c](images/maltego/tc.png)
+- accept the tearms and conditions
+- click next
+## 17. Install Data Source
+![DS](images/maltego/DS.png)
 
-## 11. Installation Finished
+- click next
+## 18. Help improve Maltego
+![mg](images/maltego/mg.png)
+- click next
+## 19. Web Browser Options
+![BO](images/maltego/Bo.png)
 
-![Maltego Install](images/maltego/maltego-install.png)
-
-- Click **"Finish"**
-- Maltego opens with a blank graph workspace
-
----
-### 12. Data Sources
-![Data Sources](./screenshots/12-data-sources-selection.png)
-- Utilities already selected (keep as is)
-- Click "Next"
-
-### 13. Terms & Conditions
-![Terms](./screenshots/13-terms-accept.png)
-- Accept terms and conditions
-- Click "Next" (continue through prompts)
-
-### 14. Browser Options
-![Browser Selection](./screenshots/14-browser-selection.png)
-- Select your preferred web browser
+ Select your preferred web browser
 - Click "Next"
 
 ### 15. Privacy Mode
-![Privacy Mode](./screenshots/15-privacy-mode.png)
+![PM](images/maltego/PM.png)
 - **Select: Normal Mode**
   > *Why Normal?* Stealth mode blocks IP exposure but may limit some investigations. Normal mode allows full functionality.
 
 - Click "Next"
 
 ### 16. Finish Installation
-![Finish](./screenshots/16-install-finish.png)
+![FI](images/maltego/FI.png)
 - Click "Finish"
 - Maltego opens with blank graph
 
 ### 17. Privacy Policy Notice
-![Privacy Notice](./screenshots/17-privacy-notice.png)
+![pp](images/maltego/pp.png)
 - Click **"Acknowledge"**
 
-### 18. Tutorial Guide
-![Tutorial](./screenshots/18-tutorial-start.png)
-- Tutorial starts automatically (follow or skip)
-
-### 19. Entity Palette
-![Entity Palette](./screenshots/19-entity-palette.png)
+### 18. Maltego interface
+![MI](./screenshots/MI.png)
 - **Left panel:** Entity Palette (where drag-and-drop entities live)
 - Ready for investigations!
 
