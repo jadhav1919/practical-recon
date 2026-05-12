@@ -185,7 +185,7 @@ Applications → Information Gathering → Maltego
 > Click "Next" to continue
 
 ### 2. Activation Method
-![Activation Option](./screenshots/activation-option)
+![Activation Option](./screenshots/activation-option1)
 - Select **"Default Online Activation"**
 - Click "Next"
 
@@ -195,32 +195,36 @@ Applications → Information Gathering → Maltego
 - Click "Next"
 
 ### 4. Login to Maltego
-![Login Prompt](./screenshots/04-login-prompt.png)
+![Login Prompt](./screenshots/login-prompt.png)
 **Option:** Click **"Browser Login"** button
 
 ### 5. Browser Login Page
-![Browser Login](./screenshots/05-browser-login-page.png)
+![Browser Login](./screenshots/browser-login-page.png)
 - Click **"Create ID"** (if no account exists)
 
 ### 6. Account Creation Form
-![Create Account](./screenshots/06-create-account-form.png)
+![Create Account](./screenshots/create-account-form.png)
 - Enter email address
 - Enter first and last name
 - Click "Continue"
 
 ### 7. Create Password
-![Password Creation](./screenshots/07-email-verification.png)
+![Password Creation](./screenshots/email-verification.png)
 - Create strong password
 - Click "Continue"
 
 ### 8. OTP Verification
-![OTP Verification](./screenshots/08-otp-verification.png)
+![OTP Verification](./screenshots/otp-verification.png)
 - Check email for OTP code
 - Enter code
 - Click "Verify"
 
-### 9. Country & Phone
-![Country Phone](./screenshots/09-country-phone.png)
+### 9. Log in to maltego
+![login to maltego](./screenshots/logintomal.png)
+- Enter email and password
+### 10. Country and Phone
+
+![Country Phone](./screenshots/country-phone.png)
 - Select country
 - Enter phone number
 - Click "Continue"
