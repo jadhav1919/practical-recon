@@ -181,7 +181,7 @@ Applications → Information Gathering → Maltego
 
 ![Maltego Startup](images/maltego/maltego-startup.png)
 
-> Click **"Next"** to continue
+> Click **"Next"** to continue.
 
 ---
 
@@ -247,9 +247,14 @@ Applications → Information Gathering → Maltego
 - Click **"Verify"**
 
 ---
+
 ## 9. Log in to Maltego
-![login](images/maltego/login1.png)
--Now log in with your credentials
+
+![Login](images/maltego/login1.png)
+
+- Log in using your registered email and password
+
+---
 
 ## 10. Country and Phone Number
 
@@ -260,65 +265,129 @@ Applications → Information Gathering → Maltego
 - Click **"Continue"**
 
 ---
-## 11,final form with additional questions
-![additonal](images/maltego/additional1.png)
-- this information does not effect your activation so answer however prefer and submit close the browser and return to Maltego
-## 12, configuration 
-![configuration](images/maltego/configuration.png)
-- this show Browser login was successful
-- click next
 
-## 13. Maltego ID activation
-![Activation ](images/maltego/activatio1.png)
-- click next
+## 11. Additional Questions
 
-## 14.Select Data Sources
+![Additional Questions](images/maltego/additional1.png)
 
-![datasouces ](images/maltego/data.png)
-- Data source selection displays with Utilities alredy selected 
-- click next
-## 15.Download Data source
-![source](images/maltego/source.png)
-- this installs the basic transforms you need for investigations
-- click next
+- Fill in the optional questions as preferred
+- These questions do not affect activation
+- Submit the form
+- Close the browser and return to Maltego
 
-## 16. Data Sources T&cs
-![t&c](images/maltego/tc.png)
-- accept the tearms and conditions
-- click next
-## 17. Install Data Source
-![DS](images/maltego/DS.png)
+---
 
-- click next
-## 18. Help improve Maltego
-![mg](images/maltego/mg.png)
-- click next
+## 12. Configuration Successful
+
+![Configuration](images/maltego/configuration.png)
+
+- This confirms that browser login was successful
+- Click **"Next"**
+
+---
+
+## 13. Maltego ID Activation
+
+![Activation](images/maltego/activatio1.png)
+
+- Click **"Next"**
+
+---
+
+## 14. Select Data Sources
+
+![Data Sources](images/maltego/data.png)
+
+- The Utilities package is already selected by default
+- Click **"Next"**
+
+---
+
+## 15. Download Data Sources
+
+![Download Sources](images/maltego/source.png)
+
+- This installs the basic transforms required for investigations
+- Click **"Next"**
+
+---
+
+## 16. Data Sources Terms & Conditions
+
+![Terms and Conditions](images/maltego/tc.png)
+
+- Accept the terms and conditions
+- Click **"Next"**
+
+---
+
+## 17. Install Data Sources
+
+![Install Data Sources](images/maltego/DS.png)
+
+- Wait for installation to complete
+- Click **"Next"**
+
+---
+
+## 18. Help Improve Maltego
+
+![Help Improve Maltego](images/maltego/mg.png)
+
+- Choose your preferred option
+- Click **"Next"**
+
+---
+
 ## 19. Web Browser Options
-![BO](images/maltego/Bo.png)
 
- Select your preferred web browser
-- Click "Next"
+![Browser Options](images/maltego/Bo.png)
 
-### 15. Privacy Mode
-![PM](images/maltego/PM.png)
-- **Select: Normal Mode**
-  > *Why Normal?* Stealth mode blocks IP exposure but may limit some investigations. Normal mode allows full functionality.
+- Select your preferred web browser
+- Click **"Next"**
 
-- Click "Next"
+---
 
-### 16. Finish Installation
-![FI](images/maltego/FI.png)
-- Click "Finish"
-- Maltego opens with blank graph
+## 20. Privacy Mode
 
-### 17. Privacy Policy Notice
-![pp](images/maltego/pp.png)
+![Privacy Mode](images/maltego/PM.png)
+
+- Select **"Normal Mode"**
+
+> **Why Normal Mode?**  
+> Stealth mode hides IP exposure but may limit some investigations.  
+> Normal mode provides full functionality.
+
+- Click **"Next"**
+
+---
+
+## 21. Finish Installation
+
+![Finish Installation](images/maltego/FI.png)
+
+- Click **"Finish"**
+- Maltego opens with a blank graph workspace
+
+---
+
+## 22. Privacy Policy Notice
+
+![Privacy Policy](images/maltego/pp.png)
+
 - Click **"Acknowledge"**
 
-### 18. Maltego interface
-![MI](./screenshots/MI.png)
-- **Left panel:** Entity Palette (where drag-and-drop entities live)
-- Ready for investigations!
+---
+
+## 23. Maltego Interface
+
+![Maltego Interface](images/maltego/MI.png)
+
+### Interface Overview
+
+- **Left Panel:** Entity Palette
+- Used to drag and drop entities into the graph workspace
+- Ready to start investigations
 
 
 ## 10. Understanding the Interface
