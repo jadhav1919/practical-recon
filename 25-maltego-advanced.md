@@ -437,8 +437,6 @@ Run additional DNS-related transforms.
 
 ---
 
-## Screenshot
-
 ![DNS Lookup Investigation](images/maltego/dns-lookup-investigation.png)
 
 ---
