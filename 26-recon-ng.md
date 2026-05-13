@@ -460,7 +460,7 @@ info
 
 ![Module Information](images/recon-ng/module-info.png)
 
-# Step 10 — Set Target Domain
+# Step 10 Set Target Domain
 
 Configure the target domain for enumeration.
 
@@ -468,7 +468,7 @@ Configure the target domain for enumeration.
 options set SOURCE iiitkottayam.ac.in
 ```
 
-# Step 11  Run brute_hosts Module
+# Step 11 Run brute_hosts Module
 
 Execute the module to discover subdomains.
 
@@ -480,7 +480,7 @@ run
 ![Run brute_hosts](images/recon-ng/run-brute-hosts.png)
 
 
-# Step 12 — View Stored Hosts
+# Step 12 View Stored Hosts
 
 Display discovered hosts stored inside the database.
 
