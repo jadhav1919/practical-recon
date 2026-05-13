@@ -363,32 +363,13 @@ run
 
 # Important Recon Modules
 
-# 1. brute_hosts Module
-
-The `brute_hosts` module is used for subdomain enumeration.
-
-It helps discover hidden or common subdomains related to a target domain.
-
----
-
-# Objective
-
-Target Domain:
-
-```text
-iiitkottayam.ac.in
-```
-
-Goal:
-- Discover subdomains
-- Identify exposed hosts
-- Expand attack surface
-
----
-
 # Step 1 — Start Recon-ng
 
-Run:
+Launch the Recon-ng framework.
+
+---
+
+## Command
 
 ```bash
 recon-ng
@@ -398,37 +379,46 @@ recon-ng
 
 # Step 2 — Create Workspace
 
-Workspaces help organize reconnaissance projects.
+Create a workspace for the reconnaissance project.
 
 ---
 
 ```bash
 workspaces create iiitk
 ```
-
 ---
 
-## Verify Workspace
+# Step 3 — List Available Workspaces
 
+Verify the created workspace.
+
+---
 ```bash
 workspaces list
 ```
 
 ---
 
+## Screenshot
 
-# Step 3 — Insert Target Domain
+![Workspace List](images/recon-ng/workspace-list.png)
+
+---
+
+# Step 4 — Insert Target Domain
 
 Add the target domain into the Recon-ng database.
 
 ---
+
+
 ```bash
 db insert domains
 ```
 
 ---
 
-## Enter Domain
+## Input
 
 ```text
 iiitkottayam.ac.in
@@ -436,16 +426,55 @@ iiitkottayam.ac.in
 
 ---
 
-## Verify Domain
+![Insert Domain](images/recon-ng/insert-domain.png)
+
+---
+
+# Step 5 — Verify Stored Domains
+
+Display domains stored inside the database.
+
+---
+
+## Command
 
 ```bash
 show domains
 ```
+
 ---
 
-# Step 4 — Search Modules
+## Screenshot
 
-Search available Recon-ng modules.
+![Show Domains](images/recon-ng/show-domains.png)
+
+---
+
+
+# Step 6— Install All Modules
+
+Install all available Recon-ng modules.
+
+---
+
+## Command
+
+```bash
+marketplace install all
+```
+
+---
+
+![Install Modules](images/recon-ng/install-all-modules.png)
+> **Note:**  
+> During module installation and execution, Recon-ng may display some warning or error messages in red color related to missing API keys or optional dependencies.  
+> These warnings can be ignored for basic reconnaissance and subdomain enumeration because the core modules still function correctly.
+
+---
+
+# Step 7 — Search brute_hosts Module Again
+
+Verify the brute_hosts module is installed.
 
 ---
 
@@ -454,26 +483,41 @@ Search available Recon-ng modules.
 ```bash
 modules search brute
 ```
----
-
-# Step 5 — Load brute_hosts Module
-
-Load the subdomain enumeration module.
 
 ---
+
+## Screenshot
+
+![Search Installed brute_hosts](images/recon-ng/search-installed-brute.png)
+
+---
+
+# Step 8 Load brute_hosts Module
+
+Load the DNS brute force module.
+
+---
+
+## Command
 
 ```bash
 modules load recon/domains-hosts/brute_hosts
 ```
 
 ---
-# Step 6 — View Module Information
 
-Display module information and required options.
+## Screenshot
+
+![Load brute_hosts](images/recon-ng/load-brute-hosts.png)
 
 ---
 
-## Command
+# Step 9 View Module Information
+
+Display module information and requirements.
+
+---
+
 
 ```bash
 info
@@ -481,53 +525,31 @@ info
 
 ---
 
-## Expected Information
 
-- Module description
-- Required options
-- Author
-- Source requirement
+![Module Information](images/recon-ng/module-info.png)
 
 ---
 
-# Step 7 — Show Module Options
+# Step 10 — Set Target Domain
 
-Display configurable options.
+Configure the target domain for enumeration.
 
 ---
 
 ## Command
 
 ```bash
-show options
-```
-
----
-
-# Step 8 — Set Target Domain
-
-Set the target domain for enumeration.
-
----
-
-```bash
 options set SOURCE iiitkottayam.ac.in
 ```
 
 ---
+# Step 11  Run brute_hosts Module
 
-## Verify Options
-
-```bash
-show options
-```
----
-
-# Step 9 — Run Module
-
-Execute the brute_hosts module.
+Execute the module to discover subdomains.
 
 ---
+
+## Command
 
 ```bash
 run
@@ -535,18 +557,29 @@ run
 
 ---
 
-## Purpose
+## Screenshot
 
-The module attempts to discover:
-- mail servers
-- VPN portals
-- admin panels
-- hidden subdomains
+![Run brute_hosts](images/recon-ng/run-brute-hosts.png)
+
+
+---
+
+# Step 12 — View Stored Hosts
+
+Display discovered hosts stored inside the database.
+
+---
+
+## Command
+
+```bash
+show hosts
+```
 
 ---
 
 ## Screenshot
 
-![Run brute_hosts](images/recon-ng/brute-hosts-run.png)
+![Show Hosts](images/recon-ng/show-hosts.png)
 
 ---
