@@ -363,99 +363,63 @@ run
 
 # Important Recon Modules
 
-# Step 1 — Start Recon-ng
+# Step 1 Start Recon-ng
 
 Launch the Recon-ng framework.
-
----
-
-## Command
 
 ```bash
 recon-ng
 ```
 
----
-
-# Step 2 — Create Workspace
+# Step 2 Create Workspace
 
 Create a workspace for the reconnaissance project.
-
----
 
 ```bash
 workspaces create iiitk
 ```
----
-
-# Step 3 — List Available Workspaces
+# Step 3 List Available Workspaces
 
 Verify the created workspace.
 
----
 ```bash
 workspaces list
 ```
-
----
 
 ## Screenshot
 
 ![Workspace List](images/recon-ng/workspace-list.png)
 
----
-
-# Step 4 — Insert Target Domain
+# Step 4 Insert Target Domain
 
 Add the target domain into the Recon-ng database.
-
----
-
 
 ```bash
 db insert domains
 ```
-
----
-
 ## Input
 
 ```text
 iiitkottayam.ac.in
 ```
 
----
-
-![Insert Domain](images/recon-ng/insert-domain.png)
-
----
-
-# Step 5 — Verify Stored Domains
+# Step 5  Verify Stored Domains
 
 Display domains stored inside the database.
-
----
-
-## Command
 
 ```bash
 show domains
 ```
 
----
-
-## Screenshot
-
 ![Show Domains](images/recon-ng/show-domains.png)
 
----
 
 
-# Step 6— Install All Modules
+# Step 6 Install All Modules
 
 Install all available Recon-ng modules.
 
----
+--
 
 ## Command
 
@@ -463,30 +427,18 @@ Install all available Recon-ng modules.
 marketplace install all
 ```
 
----
-
 ![Install Modules](images/recon-ng/install-all-modules.png)
 > **Note:**  
 > During module installation and execution, Recon-ng may display some warning or error messages in red color related to missing API keys or optional dependencies.  
 > These warnings can be ignored for basic reconnaissance and subdomain enumeration because the core modules still function correctly.
 
----
-
-# Step 7 — Search brute_hosts Module Again
+# Step 7  Search brute_hosts Module Again
 
 Verify the brute_hosts module is installed.
-
----
-
-## Command
 
 ```bash
 modules search brute
 ```
-
----
-
-## Screenshot
 
 ![Search Installed brute_hosts](images/recon-ng/search-installed-brute.png)
 
