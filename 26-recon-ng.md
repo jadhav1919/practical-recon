@@ -494,6 +494,6 @@ show hosts
 ```
 
 
-![Show Hosts](images/recon-ng/show-hosts.png)
+![Show Hosts](images/recon-ng/show-hosts1.png)
 
 ---
