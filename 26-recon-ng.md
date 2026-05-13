@@ -488,6 +488,7 @@ Display discovered hosts stored inside the database.
 ```bash
 show hosts
 ```
+![Run brute_hosts](images/recon-ng/show-hosts1.png)
 
 # Important Recon-ng Modules
 
