@@ -123,14 +123,13 @@ https://osintframework.com
 
 Inside the OSINT Framework tree structure:
 
-```text
+
 Username
     └── Username Search Engines
             └── Sherlock
 
 ![OSINT Framework Sherlock Path](images/osint-framework/osint-framework-sherlock.png)
 
----
 
 # Step 3 Open Sherlock Tool
 
