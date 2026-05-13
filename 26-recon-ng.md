@@ -360,8 +360,7 @@ run
 
 
 ---
-
-# Important Recon Modules
+# Footprinting using Recon-ng
 
 # Step 1 Start Recon-ng
 
@@ -385,8 +384,6 @@ Verify the created workspace.
 ```bash
 workspaces list
 ```
-
-## Screenshot
 
 ![Workspace List](images/recon-ng/workspace-list.png)
 
@@ -421,7 +418,6 @@ Install all available Recon-ng modules.
 
 --
 
-## Command
 
 ```bash
 marketplace install all
@@ -493,7 +489,138 @@ Display discovered hosts stored inside the database.
 show hosts
 ```
 
+# Important Recon-ng Modules
 
-![Show Hosts](images/recon-ng/show-hosts1.png)
 
----
+# brute_hosts
+
+## Module Path
+
+```bash
+recon/domains-hosts/brute_hosts
+```
+
+## Purpose
+
+Used for brute-force subdomain enumeration.
+
+Finds:
+- Hidden subdomains
+- VPN portals
+- Admin panels
+- Internal services
+
+
+# bing_domain_web
+
+## Module Path
+
+```bash
+recon/domains-hosts/bing_domain_web
+```
+
+## Purpose
+
+Uses Bing search engine results to discover publicly indexed subdomains and hosts.
+
+Useful for passive reconnaissance.
+
+
+# hackertarget
+
+## Module Path
+
+```bash
+recon/domains-hosts/hackertarget
+```
+
+## Purpose
+
+Uses HackerTarget services to gather:
+- Subdomains
+- IP addresses
+- DNS information
+
+Useful for passive reconnaissance and host discovery.
+
+
+# whois_pocs
+
+## Module Path
+
+```bash
+recon/domains-contacts/whois_pocs
+```
+
+## Purpose
+
+Collects WHOIS contact information.
+
+Finds:
+- Emails
+- Domain owner details
+- Organization contacts
+
+Useful for OSINT and email harvesting.
+
+
+# reverse_resolve
+
+## Module Path
+
+```bash
+recon/hosts-hosts/reverse_resolve
+```
+
+## Purpose
+
+Performs reverse DNS lookups.
+
+Converts:
+
+```text
+IP → Hostname
+```
+
+Useful for:
+- Host discovery
+- Infrastructure mapping
+- Network reconnaissance
+
+
+# shodan_hostname
+
+## Module Path
+
+```bash
+recon/domains-hosts/shodan_hostname
+```
+
+## Purpose
+
+Uses Shodan data to gather:
+- Open ports
+- Services
+- Technologies
+- Exposed systems
+
+Useful for infrastructure intelligence gathering.
+
+# reporting/html
+
+## Module Path
+
+```bash
+reporting/html
+```
+
+## Purpose
+
+Generates an HTML report containing:
+- Hosts
+- Domains
+- Contacts
+- Reconnaissance findings
+
+Useful for documentation and reporting.
+
