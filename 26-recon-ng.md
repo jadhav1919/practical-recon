@@ -442,95 +442,61 @@ modules search brute
 
 ![Search Installed brute_hosts](images/recon-ng/search-installed-brute.png)
 
----
 
 # Step 8 Load brute_hosts Module
 
 Load the DNS brute force module.
 
----
-
-## Command
 
 ```bash
 modules load recon/domains-hosts/brute_hosts
 ```
 
----
-
 ## Screenshot
 
 ![Load brute_hosts](images/recon-ng/load-brute-hosts.png)
 
----
-
 # Step 9 View Module Information
 
 Display module information and requirements.
-
----
 
 
 ```bash
 info
 ```
 
----
-
 
 ![Module Information](images/recon-ng/module-info.png)
-
----
 
 # Step 10 — Set Target Domain
 
 Configure the target domain for enumeration.
 
----
-
-## Command
-
 ```bash
 options set SOURCE iiitkottayam.ac.in
 ```
 
----
 # Step 11  Run brute_hosts Module
 
 Execute the module to discover subdomains.
 
----
-
-## Command
 
 ```bash
 run
 ```
 
----
-
-## Screenshot
-
 ![Run brute_hosts](images/recon-ng/run-brute-hosts.png)
 
-
----
 
 # Step 12 — View Stored Hosts
 
 Display discovered hosts stored inside the database.
 
----
-
-## Command
 
 ```bash
 show hosts
 ```
 
----
-
-## Screenshot
 
 ![Show Hosts](images/recon-ng/show-hosts.png)
 
