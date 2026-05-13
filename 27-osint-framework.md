@@ -104,3 +104,40 @@ https://osintframework.com
 > It is a collection and organization platform for OSINT resources and reconnaissance tools.
 
 ---
+
+# Example Usage — Sherlock Username Investigation using OSINT Framework
+
+This example demonstrates how OSINT Framework can be used to locate username investigation tools such as Sherlock.
+
+# Step 1 — Open OSINT Framework
+
+Open:
+
+```text
+https://osintframework.com
+```
+
+---
+
+# Step 2 — Navigate to Username Category
+
+Inside the OSINT Framework tree structure:
+
+```text
+Username
+    └── Username Search Engines
+            └── Sherlock
+
+![OSINT Framework Sherlock Path](images/osint-framework/osint-framework-sherlock.png)
+
+---
+
+# Step 3 — Open Sherlock Tool
+
+Sherlock is used for username enumeration across multiple social media platforms.
+
+---
+
+# Step 5 — Run Sherlock
+
+
