@@ -91,7 +91,7 @@ https://osintframework.com
 
 ---
 
-# Screenshot
+
 
 ![OSINT Framework](images/osint-framework/osint-framework.png)
 
