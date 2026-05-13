@@ -124,9 +124,7 @@ https://osintframework.com
 Inside the OSINT Framework tree structure:
 
 
-Username
-    └── Username Search Engines
-            └── Sherlock
+Username  -> Username Search Engines -> Sherlock
 
 ![OSINT Framework Sherlock Path](images/osint-framework/osint-framework-sherlock.png)
 
