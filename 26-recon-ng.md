@@ -452,10 +452,6 @@ Load the DNS brute force module.
 modules load recon/domains-hosts/brute_hosts
 ```
 
-## Screenshot
-
-![Load brute_hosts](images/recon-ng/load-brute-hosts.png)
-
 # Step 9 View Module Information
 
 Display module information and requirements.
