@@ -105,11 +105,11 @@ https://osintframework.com
 
 ---
 
-# Example Usage — Sherlock Username Investigation using OSINT Framework
+# Example Usage Sherlock Username Investigation using OSINT Framework
 
 This example demonstrates how OSINT Framework can be used to locate username investigation tools such as Sherlock.
 
-# Step 1 — Open OSINT Framework
+# Step 1 Open OSINT Framework
 
 Open:
 
@@ -119,7 +119,7 @@ https://osintframework.com
 
 ---
 
-# Step 2 — Navigate to Username Category
+# Step 2  Navigate to Username Category
 
 Inside the OSINT Framework tree structure:
 
@@ -132,12 +132,12 @@ Username
 
 ---
 
-# Step 3 — Open Sherlock Tool
+# Step 3 Open Sherlock Tool
 
 Sherlock is used for username enumeration across multiple social media platforms.
 
 ---
 
-# Step 5 — Run Sherlock
+# Step 5 Run Sherlock
 
 
