@@ -279,9 +279,6 @@ marketplace remove recon/domains-hosts/hackertarget
 
 ---
 
-## Screenshot
-
-![Marketplace Modules](images/recon-ng/marketplace.png)
 
 ---
 
@@ -361,37 +358,176 @@ run
 
 ---
 
-## Screenshot
-
-![Loading Modules](images/recon-ng/modules.png)
 
 ---
 
 # Important Recon Modules
 
-# 1. brute_hosts
+# 1. brute_hosts Module
 
-Used for subdomain enumeration.
+The `brute_hosts` module is used for subdomain enumeration.
+
+It helps discover hidden or common subdomains related to a target domain.
 
 ---
 
-## Load Module
+# Objective
+
+Target Domain:
+
+```text
+iiitkottayam.ac.in
+```
+
+Goal:
+- Discover subdomains
+- Identify exposed hosts
+- Expand attack surface
+
+---
+
+# Step 1 — Start Recon-ng
+
+Run:
+
+```bash
+recon-ng
+```
+
+---
+
+# Step 2 — Create Workspace
+
+Workspaces help organize reconnaissance projects.
+
+---
+
+```bash
+workspaces create iiitk
+```
+
+---
+
+## Verify Workspace
+
+```bash
+workspaces list
+```
+
+---
+
+
+# Step 3 — Insert Target Domain
+
+Add the target domain into the Recon-ng database.
+
+---
+```bash
+db insert domains
+```
+
+---
+
+## Enter Domain
+
+```text
+iiitkottayam.ac.in
+```
+
+---
+
+## Verify Domain
+
+```bash
+show domains
+```
+---
+
+# Step 4 — Search Modules
+
+Search available Recon-ng modules.
+
+---
+
+## Command
+
+```bash
+modules search brute
+```
+---
+
+# Step 5 — Load brute_hosts Module
+
+Load the subdomain enumeration module.
+
+---
 
 ```bash
 modules load recon/domains-hosts/brute_hosts
 ```
 
 ---
+# Step 6 — View Module Information
 
-## Set Target
+Display module information and required options.
+
+---
+
+## Command
 
 ```bash
-options set SOURCE example.com
+info
 ```
 
 ---
 
-## Run
+## Expected Information
+
+- Module description
+- Required options
+- Author
+- Source requirement
+
+---
+
+# Step 7 — Show Module Options
+
+Display configurable options.
+
+---
+
+## Command
+
+```bash
+show options
+```
+
+---
+
+# Step 8 — Set Target Domain
+
+Set the target domain for enumeration.
+
+---
+
+```bash
+options set SOURCE iiitkottayam.ac.in
+```
+
+---
+
+## Verify Options
+
+```bash
+show options
+```
+---
+
+# Step 9 — Run Module
+
+Execute the brute_hosts module.
+
+---
 
 ```bash
 run
@@ -401,505 +537,16 @@ run
 
 ## Purpose
 
-Finds:
-- admin.example.com
-- mail.example.com
-- vpn.example.com
+The module attempts to discover:
+- mail servers
+- VPN portals
+- admin panels
+- hidden subdomains
 
 ---
 
 ## Screenshot
 
-![Brute Hosts Module](images/recon-ng/brute-hosts.png)
+![Run brute_hosts](images/recon-ng/brute-hosts-run.png)
 
 ---
-
-# 2. Bing Domain Search
-
-Uses search engines to discover hosts.
-
----
-
-## Load Module
-
-```bash
-modules load recon/domains-hosts/bing_domain_web
-```
-
----
-
-## Set Target
-
-```bash
-options set SOURCE example.com
-```
-
----
-
-## Run
-
-```bash
-run
-```
-
----
-
-## Screenshot
-
-![Bing Domain Search](images/recon-ng/bing-domain.png)
-
----
-
-# 3. HackerTarget Module
-
-Used for retrieving:
-- Subdomains
-- IP addresses
-
----
-
-## Load Module
-
-```bash
-modules load recon/domains-hosts/hackertarget
-```
-
----
-
-## Set Target
-
-```bash
-options set SOURCE example.com
-```
-
----
-
-## Run
-
-```bash
-run
-```
-
----
-
-## Screenshot
-
-![Hackertarget Module](images/recon-ng/hackertarget.png)
-
----
-
-# 4. Whois Contacts
-
-Used to gather:
-- Whois contacts
-- Emails
-- Domain owner information
-
----
-
-## Load Module
-
-```bash
-modules load recon/domains-contacts/whois_pocs
-```
-
----
-
-## Set Target
-
-```bash
-options set SOURCE example.com
-```
-
----
-
-## Run
-
-```bash
-run
-```
-
----
-
-## Screenshot
-
-![Whois Contacts Module](images/recon-ng/whois-pocs.png)
-
----
-
-# 5. Reverse Resolve
-
-Converts:
-
-```text
-IP → Hostname
-```
-
----
-
-## Load Module
-
-```bash
-modules load recon/hosts-hosts/reverse_resolve
-```
-
----
-
-## Run
-
-```bash
-run
-```
-
----
-
-## Screenshot
-
-![Reverse Resolve Module](images/recon-ng/reverse-resolve.png)
-
----
-
-# API Keys
-
-Some modules require APIs.
-
-Examples:
-- Shodan
-- BuiltWith
-- WhoisXML
-- GitHub
-
----
-
-# View APIs
-
-```bash
-keys list
-```
-
----
-
-# Add API Key
-
-```bash
-keys add shodan_api YOUR_API_KEY
-```
-
----
-
-# Remove API Key
-
-```bash
-keys remove shodan_api
-```
-
----
-
-## Screenshot
-
-![API Keys](images/recon-ng/api-keys.png)
-
----
-
-# Shodan Module Example
-
-## Load Module
-
-```bash
-modules load recon/domains-hosts/shodan_hostname
-```
-
----
-
-## Set Target
-
-```bash
-options set SOURCE example.com
-```
-
----
-
-## Run
-
-```bash
-run
-```
-
----
-
-## Screenshot
-
-![Shodan Module](images/recon-ng/shodan-module.png)
-
----
-
-# Reporting
-
-Recon-ng supports automatic report generation.
-
----
-
-# HTML Report
-
-## Load Module
-
-```bash
-modules load reporting/html
-```
-
----
-
-## Set Filename
-
-```bash
-options set FILENAME /home/kali/Desktop/report.html
-```
-
----
-
-## Set Creator
-
-```bash
-options set CREATOR Jadhav
-```
-
----
-
-## Run
-
-```bash
-run
-```
-
----
-
-## Screenshot
-
-![HTML Report Generation](images/recon-ng/reporting.png)
-
----
-
-# Export Results
-
-## CSV Export
-
-```bash
-export csv /home/kali/Desktop/results.csv
-```
-
----
-
-## Screenshot
-
-![Export Results](images/recon-ng/export-results.png)
-
----
-
-# Real Practical Workflow
-
-## Step 1 — Start Recon-ng
-
-```bash
-recon-ng
-```
-
----
-
-## Step 2 — Create Workspace
-
-```bash
-workspaces create bugbounty
-```
-
----
-
-## Step 3 — Insert Domain
-
-```bash
-db insert domains
-```
-
-Enter:
-
-```text
-example.com
-```
-
----
-
-## Step 4 — Install Modules
-
-```bash
-marketplace install all
-```
-
----
-
-## Step 5 — Enumerate Subdomains
-
-```bash
-modules load recon/domains-hosts/brute_hosts
-
-options set SOURCE example.com
-
-run
-```
-
----
-
-## Step 6 — Search Engine Discovery
-
-```bash
-modules load recon/domains-hosts/bing_domain_web
-
-options set SOURCE example.com
-
-run
-```
-
----
-
-## Step 7 — Gather Whois Information
-
-```bash
-modules load recon/domains-contacts/whois_pocs
-
-options set SOURCE example.com
-
-run
-```
-
----
-
-## Step 8 — View Results
-
-```bash
-show hosts
-
-show contacts
-
-show domains
-```
-
----
-
-## Step 9 — Generate Report
-
-```bash
-modules load reporting/html
-
-options set FILENAME /home/kali/Desktop/report.html
-
-run
-```
-
----
-
-# Common Commands Cheat Sheet
-
-```bash
-recon-ng
-
-help
-
-dashboard
-
-marketplace search
-
-marketplace install all
-
-modules search
-
-modules load recon/domains-hosts/brute_hosts
-
-info
-
-show options
-
-options set SOURCE example.com
-
-run
-
-show hosts
-
-show contacts
-
-show domains
-
-keys list
-
-keys add shodan_api API_KEY
-
-modules load reporting/html
-
-run
-```
-
----
-
-# Common Mistakes
-
-## Forgetting Workspace
-
-Always create workspace before starting.
-
----
-
-## Forgetting SOURCE
-
-Most modules require:
-
-```bash
-options set SOURCE target.com
-```
-
----
-
-## Forgetting run
-
-Always execute:
-
-```bash
-run
-```
-
----
-
-## Missing API Keys
-
-Some modules fail without APIs.
-
----
-
-# Recon-ng vs Other Tools
-
-| Tool | Purpose |
-|---|---|
-| Recon-ng | OSINT automation |
-| Maltego | Visual OSINT |
-| theHarvester | Email harvesting |
-| SpiderFoot | Automated recon |
-| Amass | Subdomain enumeration |
-| Nmap | Port scanning |
-| Metasploit | Exploitation |
-
----
-
-# Final Understanding
-
-Recon-ng is useful for:
-
-- Footprinting
-- OSINT
-- Reconnaissance
-- Subdomain enumeration
-- Contact harvesting
-- Automated intelligence gathering
-
----
-
-# References
-
-- Official Recon-ng GitHub
-- CEH Labs
-- Recon-ng OSINT articles
